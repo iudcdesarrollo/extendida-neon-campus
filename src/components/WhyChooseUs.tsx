@@ -1,20 +1,21 @@
 
 import React from 'react';
+import { Book, Users, Folder } from 'lucide-react';
 
 const WhyChooseUs = () => {
   const features = [
     {
-      icon: '🎯',
+      icon: Book,
       title: 'Aprende con proyectos reales',
       description: 'Desde el primer día aplicarás lo aprendido en retos del mundo creativo actual.'
     },
     {
-      icon: '🌐',
+      icon: Folder,
       title: 'Conecta con la industria creativa',
       description: 'Nuestros cursos están diseñados junto a empresas reales para que tus habilidades tengan demanda.'
     },
     {
-      icon: '👨‍🏫',
+      icon: Users,
       title: 'Docentes en ejercicio profesional',
       description: 'No solo enseñan, también crean, diseñan y producen en activo.'
     }
@@ -39,27 +40,30 @@ const WhyChooseUs = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
-            <div
-              key={index}
-              className="group bg-black/50 p-8 rounded-2xl border border-primary-purple/20 hover:border-primary-purple/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary-purple/20 hover:-translate-y-2"
-            >
-              <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">
-                {feature.icon}
-              </div>
-              
-              <h3 className="text-2xl font-orbitron font-bold text-white mb-4 group-hover:text-primary-purple transition-colors">
-                {feature.title}
-              </h3>
-              
-              <p className="text-gray-300 font-space leading-relaxed">
-                {feature.description}
-              </p>
+          {features.map((feature, index) => {
+            const IconComponent = feature.icon;
+            return (
+              <div
+                key={index}
+                className="group bg-black/50 p-8 rounded-2xl border border-primary-purple/20 hover:border-primary-purple/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary-purple/20 hover:-translate-y-2"
+              >
+                <div className="mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <IconComponent className="w-16 h-16 text-white" />
+                </div>
+                
+                <h3 className="text-2xl font-orbitron font-bold text-white mb-4 group-hover:text-primary-purple transition-colors">
+                  {feature.title}
+                </h3>
+                
+                <p className="text-gray-300 font-space leading-relaxed">
+                  {feature.description}
+                </p>
 
-              {/* Decorative line */}
-              <div className="mt-6 w-0 h-0.5 bg-subtle-gradient group-hover:w-full transition-all duration-500"></div>
-            </div>
-          ))}
+                {/* Decorative line */}
+                <div className="mt-6 w-0 h-0.5 bg-subtle-gradient group-hover:w-full transition-all duration-500"></div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

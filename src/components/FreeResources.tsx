@@ -1,30 +1,31 @@
 
 import React from 'react';
+import { FileText, Book, Youtube, Folder } from 'lucide-react';
 
 const FreeResources = () => {
   const resources = [
     {
       title: 'Manuales PDF',
       description: 'Guías completas y recursos descargables',
-      icon: '📚',
+      icon: FileText,
       color: 'primary-purple'
     },
     {
       title: 'Guías para elegir tu curso ideal',
       description: 'Te ayudamos a encontrar el mejor camino',
-      icon: '🗺️',
+      icon: Book,
       color: 'primary-blue'
     },
     {
       title: 'Acceso a clases abiertas',
       description: 'Prueba nuestros cursos antes de inscribirte',
-      icon: '🎥',
+      icon: Youtube,
       color: 'accent-purple'
     },
     {
       title: 'Plantillas de trabajo',
       description: 'Figma, Unity, Blender y más herramientas',
-      icon: '🛠️',
+      icon: Folder,
       color: 'accent-blue'
     }
   ];
@@ -48,35 +49,38 @@ const FreeResources = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {resources.map((resource, index) => (
-            <div
-              key={index}
-              className="group bg-black/60 p-6 rounded-2xl border border-gray-700/50 hover:border-primary-purple/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary-purple/20 hover:-translate-y-2"
-            >
-              {/* Icon */}
-              <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                {resource.icon}
+          {resources.map((resource, index) => {
+            const IconComponent = resource.icon;
+            return (
+              <div
+                key={index}
+                className="group bg-black/60 p-6 rounded-2xl border border-gray-700/50 hover:border-primary-purple/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary-purple/20 hover:-translate-y-2"
+              >
+                {/* Icon */}
+                <div className="mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <IconComponent className="w-12 h-12 text-white" />
+                </div>
+
+                {/* Title */}
+                <h3 className="text-xl font-orbitron font-bold text-white mb-3 group-hover:text-primary-purple transition-colors">
+                  {resource.title}
+                </h3>
+
+                {/* Description */}
+                <p className="text-gray-300 font-space text-sm mb-6 leading-relaxed">
+                  {resource.description}
+                </p>
+
+                {/* Download Button */}
+                <button className="w-full bg-subtle-gradient text-white py-3 px-4 rounded-lg font-semibold text-sm hover:shadow-lg hover:shadow-primary-purple/50 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2">
+                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+                  </svg>
+                  Descargar
+                </button>
               </div>
-
-              {/* Title */}
-              <h3 className="text-xl font-orbitron font-bold text-white mb-3 group-hover:text-primary-purple transition-colors">
-                {resource.title}
-              </h3>
-
-              {/* Description */}
-              <p className="text-gray-300 font-space text-sm mb-6 leading-relaxed">
-                {resource.description}
-              </p>
-
-              {/* Download Button */}
-              <button className="w-full bg-subtle-gradient text-white py-3 px-4 rounded-lg font-semibold text-sm hover:shadow-lg hover:shadow-primary-purple/50 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-                </svg>
-                Descargar
-              </button>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
