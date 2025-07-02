@@ -1,20 +1,21 @@
-
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import WhatsAppButton from '../components/WhatsAppButton';
-
 const QuienesSomos = () => {
-  return (
-    <div className="min-h-screen bg-dark-bg">
+  return <div className="min-h-screen bg-dark-bg">
       <Navbar />
       
       {/* Hero Section */}
       <section className="pt-20 pb-16 bg-tech-gradient relative overflow-hidden">
         <div className="absolute inset-0">
           <div className="absolute top-20 right-20 w-40 h-40 border border-neon-purple/20 rounded-full animate-float"></div>
-          <div className="absolute bottom-32 left-20 w-32 h-32 border border-electric-blue/20 rounded-lg rotate-45 animate-float" style={{animationDelay: '3s'}}></div>
-          <div className="absolute top-1/2 left-1/4 w-20 h-20 border border-neon-pink/20 rounded-full animate-float" style={{animationDelay: '1s'}}></div>
+          <div className="absolute bottom-32 left-20 w-32 h-32 border border-electric-blue/20 rounded-lg rotate-45 animate-float" style={{
+          animationDelay: '3s'
+        }}></div>
+          <div className="absolute top-1/2 left-1/4 w-20 h-20 border border-neon-pink/20 rounded-full animate-float" style={{
+          animationDelay: '1s'
+        }}></div>
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -93,32 +94,23 @@ const QuienesSomos = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              {
-                icon: '💡',
-                title: 'Innovación',
-                description: 'Siempre a la vanguardia de las tecnologías emergentes'
-              },
-              {
-                icon: '🤝',
-                title: 'Colaboración',
-                description: 'Construimos comunidades de aprendizaje colaborativo'
-              },
-              {
-                icon: '🎨',
-                title: 'Creatividad',
-                description: 'Fomentamos el pensamiento creativo y la experimentación'
-              },
-              {
-                icon: '⚡',
-                title: 'Excelencia',
-                description: 'Comprometidos con la calidad en todo lo que hacemos'
-              }
-            ].map((value, index) => (
-              <div
-                key={index}
-                className="text-center group hover:-translate-y-2 transition-transform duration-300"
-              >
+            {[{
+            icon: '💡',
+            title: 'Innovación',
+            description: 'Siempre a la vanguardia de las tecnologías emergentes'
+          }, {
+            icon: '🤝',
+            title: 'Colaboración',
+            description: 'Construimos comunidades de aprendizaje colaborativo'
+          }, {
+            icon: '🎨',
+            title: 'Creatividad',
+            description: 'Fomentamos el pensamiento creativo y la experimentación'
+          }, {
+            icon: '⚡',
+            title: 'Excelencia',
+            description: 'Comprometidos con la calidad en todo lo que hacemos'
+          }].map((value, index) => <div key={index} className="text-center group hover:-translate-y-2 transition-transform duration-300">
                 <div className="w-20 h-20 bg-neon-gradient rounded-full flex items-center justify-center mx-auto mb-4 group-hover:animate-glow">
                   <span className="text-3xl">{value.icon}</span>
                 </div>
@@ -128,8 +120,7 @@ const QuienesSomos = () => {
                 <p className="text-gray-300 font-space">
                   {value.description}
                 </p>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </section>
@@ -140,34 +131,26 @@ const QuienesSomos = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-orbitron font-bold text-white mb-6">
               Nuestro{' '}
-              <span className="bg-neon-gradient bg-clip-text text-transparent">
+              <span className="bg-neon-gradient bg-clip-text text-white">
                 Enfoque
               </span>
             </h2>
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8">
-            {[
-              {
-                title: 'Educación Práctica',
-                description: 'Aprendizaje 100% hands-on con proyectos reales desde el primer día.',
-                icon: '🛠️'
-              },
-              {
-                title: 'Conexión Industrial',
-                description: 'Vínculos directos con empresas líderes en tecnología y diseño digital.',
-                icon: '🏢'
-              },
-              {
-                title: 'Futuro Presente',
-                description: 'Tecnologías emergentes que están definiendo el futuro hoy.',
-                icon: '🔮'
-              }
-            ].map((approach, index) => (
-              <div
-                key={index}
-                className="bg-black/60 p-8 rounded-2xl border border-neon-purple/20 hover:border-neon-purple/50 transition-all duration-300 text-center group hover:-translate-y-2"
-              >
+            {[{
+            title: 'Educación Práctica',
+            description: 'Aprendizaje 100% hands-on con proyectos reales desde el primer día.',
+            icon: '🛠️'
+          }, {
+            title: 'Conexión Industrial',
+            description: 'Vínculos directos con empresas líderes en tecnología y diseño digital.',
+            icon: '🏢'
+          }, {
+            title: 'Futuro Presente',
+            description: 'Tecnologías emergentes que están definiendo el futuro hoy.',
+            icon: '🔮'
+          }].map((approach, index) => <div key={index} className="bg-black/60 p-8 rounded-2xl border border-neon-purple/20 hover:border-neon-purple/50 transition-all duration-300 text-center group hover:-translate-y-2">
                 <div className="text-5xl mb-6 group-hover:scale-110 transition-transform duration-300">
                   {approach.icon}
                 </div>
@@ -177,16 +160,13 @@ const QuienesSomos = () => {
                 <p className="text-gray-300 font-space leading-relaxed">
                   {approach.description}
                 </p>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </section>
 
       <Footer />
       <WhatsAppButton />
-    </div>
-  );
+    </div>;
 };
-
 export default QuienesSomos;
