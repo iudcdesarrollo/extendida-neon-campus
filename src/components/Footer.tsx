@@ -41,13 +41,13 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-black border-t border-neon-purple/20">
+    <footer className="bg-black border-t border-primary-purple/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid lg:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center space-x-2 mb-6">
-              <div className="w-12 h-12 bg-neon-gradient rounded-lg flex items-center justify-center">
+              <div className="w-12 h-12 bg-subtle-gradient rounded-lg flex items-center justify-center">
                 <span className="text-white font-orbitron font-bold text-xl">AE</span>
               </div>
               <span className="text-white font-orbitron font-bold text-2xl">
@@ -65,9 +65,9 @@ const Footer = () => {
               <input 
                 type="email" 
                 placeholder="Tu email para novedades"
-                className="flex-1 bg-black/50 border border-neon-purple/30 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-neon-purple"
+                className="flex-1 bg-black/50 border border-primary-purple/30 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-primary-purple"
               />
-              <button className="bg-neon-gradient text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-neon-purple/50 transition-all duration-300">
+              <button className="bg-subtle-gradient text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-primary-purple/50 transition-all duration-300">
                 Suscribirse
               </button>
             </div>
@@ -77,16 +77,16 @@ const Footer = () => {
           <div>
             <h3 className="font-orbitron font-bold text-white text-lg mb-6">Navegación</h3>
             <div className="space-y-3">
-              <Link to="/" className="block text-gray-300 hover:text-neon-purple transition-colors">
+              <Link to="/" className="block text-gray-300 hover:text-primary-purple transition-colors">
                 Home
               </Link>
-              <Link to="/cursos" className="block text-gray-300 hover:text-neon-purple transition-colors">
+              <Link to="/cursos" className="block text-gray-300 hover:text-primary-purple transition-colors">
                 Cursos
               </Link>
-              <Link to="/quienes-somos" className="block text-gray-300 hover:text-neon-purple transition-colors">
+              <Link to="/quienes-somos" className="block text-gray-300 hover:text-primary-purple transition-colors">
                 Quiénes Somos
               </Link>
-              <Link to="/contacto" className="block text-gray-300 hover:text-neon-purple transition-colors">
+              <Link to="/contacto" className="block text-gray-300 hover:text-primary-purple transition-colors">
                 Contacto
               </Link>
             </div>
@@ -100,7 +100,7 @@ const Footer = () => {
                 <a
                   key={index}
                   href="#"
-                  className="w-10 h-10 bg-neon-purple/20 rounded-lg flex items-center justify-center text-gray-300 hover:text-white hover:bg-neon-purple/40 transition-all duration-300 hover:scale-110"
+                  className="w-10 h-10 bg-primary-purple/20 rounded-lg flex items-center justify-center text-gray-300 hover:text-white hover:bg-primary-purple/40 transition-all duration-300 hover:scale-110"
                   aria-label={social.name}
                 >
                   {social.icon}
@@ -111,7 +111,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-neon-purple/20 mt-12 pt-8 text-center">
+        <div className="border-t border-primary-purple/20 mt-12 pt-8 text-center">
           <p className="text-gray-400 font-space">
             © 2024 Aula Extendida. Todos los derechos reservados. 
             <span className="block sm:inline sm:ml-2 mt-2 sm:mt-0">

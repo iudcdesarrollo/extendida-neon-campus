@@ -16,15 +16,15 @@ const Navbar = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-black/85 backdrop-blur-md border-b border-neon-purple/20">
+    <nav className="fixed top-0 w-full z-50 bg-black/85 backdrop-blur-md border-b border-primary-purple/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 bg-neon-gradient rounded-lg flex items-center justify-center group-hover:animate-glow transition-all duration-300">
+            <div className="w-10 h-10 bg-subtle-gradient rounded-lg flex items-center justify-center group-hover:animate-glow transition-all duration-300">
               <span className="text-white font-orbitron font-bold text-lg">AE</span>
             </div>
-            <span className="text-white font-orbitron font-bold text-xl group-hover:text-neon-purple transition-colors">
+            <span className="text-white font-orbitron font-bold text-xl group-hover:text-primary-purple transition-colors">
               Aula Extendida
             </span>
           </Link>
@@ -35,18 +35,18 @@ const Navbar = () => {
               <Link
                 key={item.name}
                 to={item.path}
-                className={`relative text-white hover:text-neon-purple transition-colors duration-300 ${
-                  isActive(item.path) ? 'text-neon-purple' : ''
+                className={`relative text-white hover:text-primary-purple transition-colors duration-300 ${
+                  isActive(item.path) ? 'text-primary-purple' : ''
                 }`}
               >
                 {item.name}
-                <span className={`absolute -bottom-1 left-0 w-0 h-0.5 bg-neon-purple transition-all duration-300 ${
+                <span className={`absolute -bottom-1 left-0 w-0 h-0.5 bg-primary-purple transition-all duration-300 ${
                   isActive(item.path) ? 'w-full' : 'group-hover:w-full'
                 }`}></span>
               </Link>
             ))}
             
-            <button className="bg-neon-gradient text-white px-6 py-2 rounded-lg font-semibold hover:shadow-lg hover:shadow-neon-purple/50 transition-all duration-300 transform hover:scale-105">
+            <button className="bg-subtle-gradient text-white px-6 py-2 rounded-lg font-semibold hover:shadow-lg hover:shadow-primary-purple/50 transition-all duration-300 transform hover:scale-105">
               Inscribirme
             </button>
           </div>
@@ -55,7 +55,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-white hover:text-neon-purple transition-colors"
+              className="text-white hover:text-primary-purple transition-colors"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 {isMenuOpen ? (
@@ -76,15 +76,15 @@ const Navbar = () => {
                 <Link
                   key={item.name}
                   to={item.path}
-                  className={`block px-3 py-2 text-white hover:text-neon-purple transition-colors ${
-                    isActive(item.path) ? 'text-neon-purple bg-neon-purple/10' : ''
+                  className={`block px-3 py-2 text-white hover:text-primary-purple transition-colors ${
+                    isActive(item.path) ? 'text-primary-purple bg-primary-purple/10' : ''
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
                 </Link>
               ))}
-              <button className="w-full bg-neon-gradient text-white px-6 py-2 rounded-lg font-semibold mt-4">
+              <button className="w-full bg-subtle-gradient text-white px-6 py-2 rounded-lg font-semibold mt-4">
                 Inscribirme
               </button>
             </div>

@@ -33,7 +33,7 @@ const FAQ = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-orbitron font-bold text-white mb-6">
             Preguntas{' '}
-            <span className="bg-neon-gradient bg-clip-text text-transparent">
+            <span className="bg-subtle-gradient bg-clip-text text-transparent">
               Frecuentes
             </span>
           </h2>
@@ -43,17 +43,17 @@ const FAQ = () => {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-black/50 border border-neon-purple/20 rounded-2xl overflow-hidden hover:border-neon-purple/50 transition-all duration-300"
+              className="bg-black/50 border border-primary-purple/20 rounded-2xl overflow-hidden hover:border-primary-purple/50 transition-all duration-300"
             >
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full text-left p-6 flex justify-between items-center hover:bg-neon-purple/5 transition-colors"
+                className="w-full text-left p-6 flex justify-between items-center hover:bg-primary-purple/5 transition-colors"
               >
                 <span className="font-orbitron font-bold text-white text-lg pr-4">
                   {faq.question}
                 </span>
                 <svg
-                  className={`w-6 h-6 text-neon-purple transition-transform duration-300 ${
+                  className={`w-6 h-6 text-primary-purple transition-transform duration-300 ${
                     openIndex === index ? 'rotate-180' : ''
                   }`}
                   fill="none"
@@ -66,7 +66,7 @@ const FAQ = () => {
               
               {openIndex === index && (
                 <div className="px-6 pb-6">
-                  <div className="h-px bg-neon-gradient mb-4"></div>
+                  <div className="h-px bg-subtle-gradient mb-4"></div>
                   <p className="text-gray-300 font-space leading-relaxed">
                     {faq.answer}
                   </p>

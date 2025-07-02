@@ -12,9 +12,9 @@ const WhatsAppButton = () => {
   return (
     <button
       onClick={handleWhatsAppClick}
-      className="fixed bottom-6 right-6 z-50 bg-neon-green text-black w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:shadow-neon-green/50 transition-all duration-300 transform hover:scale-110 animate-glow"
+      className="fixed bottom-6 right-6 z-50 bg-whatsapp-green text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:shadow-blue-900/30 transition-all duration-300 transform hover:scale-110"
       style={{
-        boxShadow: '0 0 20px rgba(57, 255, 20, 0.5)',
+        boxShadow: '0 0 15px rgba(30, 58, 138, 0.3)',
       }}
     >
       <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">

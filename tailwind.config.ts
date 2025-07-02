@@ -53,12 +53,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Colores neón personalizados
+				// Colores más serios - azules y morados
 				'dark-bg': '#0c0f1a',
-				'neon-purple': '#bf00ff',
-				'electric-blue': '#00ffff',
-				'neon-pink': '#ff00cc',
-				'neon-green': '#39ff14',
+				'primary-purple': '#7c3aed',
+				'primary-blue': '#3b82f6',
+				'accent-purple': '#a855f7',
+				'accent-blue': '#60a5fa',
+				'whatsapp-green': '#25d366',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,10 +85,10 @@ export default {
 				},
 				'glow': {
 					'0%, 100%': {
-						boxShadow: '0 0 20px #bf00ff, 0 0 40px #bf00ff, 0 0 60px #bf00ff'
+						boxShadow: '0 0 20px #7c3aed, 0 0 40px #7c3aed, 0 0 60px #7c3aed'
 					},
 					'50%': {
-						boxShadow: '0 0 10px #bf00ff, 0 0 20px #bf00ff, 0 0 30px #bf00ff'
+						boxShadow: '0 0 10px #7c3aed, 0 0 20px #7c3aed, 0 0 30px #7c3aed'
 					}
 				},
 				'float': {
@@ -122,7 +123,7 @@ export default {
 			},
 			backgroundImage: {
 				'tech-gradient': 'linear-gradient(135deg, #0c0f1a 0%, #1a0f2e 50%, #0c0f1a 100%)',
-				'neon-gradient': 'linear-gradient(135deg, #bf00ff 0%, #00ffff 50%, #ff00cc 100%)',
+				'subtle-gradient': 'linear-gradient(135deg, #7c3aed 0%, #3b82f6 100%)',
 			}
 		}
 	},
