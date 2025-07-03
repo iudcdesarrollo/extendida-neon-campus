@@ -43,25 +43,34 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Futuristic Visual Element */}
+          {/* Image with Futuristic Visual Elements */}
           <div className="relative flex justify-center lg:justify-end animate-float">
             <div className="relative">
-              {/* Main Circle */}
-              <div className="w-80 h-80 rounded-full bg-subtle-gradient opacity-20 animate-glow"></div>
+              {/* Main Circle - Behind the image */}
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 rounded-full bg-subtle-gradient opacity-20 animate-glow z-0"></div>
               
-              {/* Inner Circle */}
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-60 h-60 rounded-full border-2 border-primary-blue animate-spin" style={{animationDuration: '20s'}}></div>
+              {/* Inner Circle - Behind the image */}
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-60 h-60 rounded-full border-2 border-primary-blue animate-spin z-0" style={{animationDuration: '20s'}}></div>
               
-              {/* Center Element */}
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-primary-purple rounded-full flex items-center justify-center">
-                <svg className="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 24 24">
+              {/* Main Image */}
+              <div className="relative z-10">
+                <img 
+                  src="/lovable-uploads/172189d1-0e5f-4aaa-958e-3b10e403800d.png" 
+                  alt="Tecnología futurista - Aula Extendida"
+                  className="w-80 h-auto object-contain animate-float"
+                />
+              </div>
+
+              {/* Floating Elements - Behind the image */}
+              <div className="absolute -top-8 -right-8 w-16 h-16 bg-primary-blue/30 rounded-lg rotate-45 animate-float z-0"></div>
+              <div className="absolute -bottom-8 -left-8 w-12 h-12 bg-accent-purple/30 rounded-full animate-float z-0" style={{animationDelay: '2s'}}></div>
+              
+              {/* Center Element - Positioned to not interfere with image */}
+              <div className="absolute top-3/4 left-3/4 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-primary-purple rounded-full flex items-center justify-center z-0">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                 </svg>
               </div>
-
-              {/* Floating Elements */}
-              <div className="absolute -top-8 -right-8 w-16 h-16 bg-primary-blue/30 rounded-lg rotate-45 animate-float"></div>
-              <div className="absolute -bottom-8 -left-8 w-12 h-12 bg-accent-purple/30 rounded-full animate-float" style={{animationDelay: '2s'}}></div>
             </div>
           </div>
         </div>
