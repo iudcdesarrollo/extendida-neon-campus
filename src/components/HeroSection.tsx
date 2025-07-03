@@ -57,7 +57,7 @@ const HeroSection = () => {
                 <img 
                   src="/lovable-uploads/172189d1-0e5f-4aaa-958e-3b10e403800d.png" 
                   alt="Tecnología futurista - Aula Extendida"
-                  className="w-80 h-auto object-contain animate-float"
+                  className="w-96 h-auto object-contain animate-float"
                 />
               </div>
 
