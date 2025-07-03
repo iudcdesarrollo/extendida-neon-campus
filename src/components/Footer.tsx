@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -45,17 +46,14 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center space-x-2 mb-6">
-              <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+            <Link to="/" className="flex items-center mb-6">
+              <div className="w-16 h-16 rounded-lg flex items-center justify-center">
                 <img 
                   src="/lovable-uploads/c9705e28-40cf-4465-90c8-7ff83c94f94d.png" 
                   alt="Aula Extendida Logo" 
-                  className="w-12 h-12 object-contain"
+                  className="w-16 h-16 object-contain"
                 />
               </div>
-              <span className="text-white font-orbitron font-bold text-2xl">
-                Aula Extendida
-              </span>
             </Link>
             
             <p className="text-gray-300 font-space leading-relaxed mb-6 max-w-md">

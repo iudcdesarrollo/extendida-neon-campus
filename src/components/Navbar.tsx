@@ -20,17 +20,14 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 rounded-lg flex items-center justify-center group-hover:animate-glow transition-all duration-300">
+          <Link to="/" className="flex items-center group">
+            <div className="w-12 h-12 rounded-lg flex items-center justify-center group-hover:animate-glow transition-all duration-300">
               <img 
                 src="/lovable-uploads/c9705e28-40cf-4465-90c8-7ff83c94f94d.png" 
                 alt="Aula Extendida Logo" 
-                className="w-10 h-10 object-contain"
+                className="w-12 h-12 object-contain"
               />
             </div>
-            <span className="text-white font-orbitron font-bold text-xl group-hover:text-primary-purple transition-colors">
-              Aula Extendida
-            </span>
           </Link>
 
           {/* Desktop Menu */}
