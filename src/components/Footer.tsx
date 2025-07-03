@@ -47,11 +47,11 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center mb-6">
-              <div className="w-16 h-16 rounded-lg flex items-center justify-center">
+              <div className="w-24 h-16 flex items-center justify-center">
                 <img 
                   src="/lovable-uploads/c9705e28-40cf-4465-90c8-7ff83c94f94d.png" 
                   alt="Aula Extendida Logo" 
-                  className="w-16 h-16 object-contain"
+                  className="w-24 h-16 object-contain"
                 />
               </div>
             </Link>
