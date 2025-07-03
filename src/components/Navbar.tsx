@@ -21,11 +21,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <div className="w-54 h-30 flex items-center justify-center">
+            <div className="w-22 h-12 flex items-center justify-center">
               <img 
                 src="/lovable-uploads/c9705e28-40cf-4465-90c8-7ff83c94f94d.png" 
                 alt="Aula Extendida Logo" 
-                className="w-54 h-30 object-contain"
+                className="w-22 h-12 object-contain"
               />
             </div>
           </Link>
