@@ -1,9 +1,8 @@
-
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import WhatsAppButton from '../components/WhatsAppButton';
-import { Target, Rocket, Lightbulb, Handshake, Palette, Zap, Wrench, Building, Crystal } from 'lucide-react';
+import { Target, Rocket, Lightbulb, Handshake, Palette, Zap, Wrench, Building, Gem } from 'lucide-react';
 
 const QuienesSomos = () => {
   return <div className="min-h-screen bg-dark-bg">
@@ -157,7 +156,7 @@ const QuienesSomos = () => {
           }, {
             title: 'Futuro Presente',
             description: 'Tecnologías emergentes que están definiendo el futuro hoy.',
-            icon: Crystal
+            icon: Gem
           }].map((approach, index) => {
             const IconComponent = approach.icon;
             return (
