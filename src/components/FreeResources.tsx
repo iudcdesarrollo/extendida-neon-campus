@@ -41,7 +41,7 @@ const FreeResources = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-orbitron font-bold text-white mb-6">
-            🎁 Recursos Gratuitos para{' '}
+            Recursos Gratuitos para{' '}
             <span className="bg-subtle-gradient bg-clip-text text-transparent">
               Crear Más y Mejor
             </span>
