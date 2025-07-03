@@ -1,7 +1,10 @@
+
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import WhatsAppButton from '../components/WhatsAppButton';
+import { Target, Rocket, Lightbulb, Handshake, Palette, Zap, Wrench, Building, Crystal } from 'lucide-react';
+
 const QuienesSomos = () => {
   return <div className="min-h-screen bg-dark-bg">
       <Navbar />
@@ -41,7 +44,7 @@ const QuienesSomos = () => {
               <div className="bg-black/60 p-8 rounded-2xl border border-neon-purple/30 hover:border-neon-purple/60 transition-all duration-300 relative z-10">
                 <div className="flex items-center mb-6">
                   <div className="w-12 h-12 bg-neon-gradient rounded-lg flex items-center justify-center mr-4">
-                    <span className="text-2xl">🎯</span>
+                    <Target className="w-6 h-6 text-white" />
                   </div>
                   <h2 className="text-3xl font-orbitron font-bold text-white">Misión</h2>
                 </div>
@@ -60,7 +63,7 @@ const QuienesSomos = () => {
               <div className="bg-black/60 p-8 rounded-2xl border border-electric-blue/30 hover:border-electric-blue/60 transition-all duration-300 relative z-10">
                 <div className="flex items-center mb-6">
                   <div className="w-12 h-12 bg-gradient-to-r from-electric-blue to-neon-pink rounded-lg flex items-center justify-center mr-4">
-                    <span className="text-2xl">🚀</span>
+                    <Rocket className="w-6 h-6 text-white" />
                   </div>
                   <h2 className="text-3xl font-orbitron font-bold text-white">Visión</h2>
                 </div>
@@ -95,24 +98,27 @@ const QuienesSomos = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[{
-            icon: '💡',
+            icon: Lightbulb,
             title: 'Innovación',
             description: 'Siempre a la vanguardia de las tecnologías emergentes'
           }, {
-            icon: '🤝',
+            icon: Handshake,
             title: 'Colaboración',
             description: 'Construimos comunidades de aprendizaje colaborativo'
           }, {
-            icon: '🎨',
+            icon: Palette,
             title: 'Creatividad',
             description: 'Fomentamos el pensamiento creativo y la experimentación'
           }, {
-            icon: '⚡',
+            icon: Zap,
             title: 'Excelencia',
             description: 'Comprometidos con la calidad en todo lo que hacemos'
-          }].map((value, index) => <div key={index} className="text-center group hover:-translate-y-2 transition-transform duration-300">
+          }].map((value, index) => {
+            const IconComponent = value.icon;
+            return (
+              <div key={index} className="text-center group hover:-translate-y-2 transition-transform duration-300">
                 <div className="w-20 h-20 bg-neon-gradient rounded-full flex items-center justify-center mx-auto mb-4 group-hover:animate-glow">
-                  <span className="text-3xl">{value.icon}</span>
+                  <IconComponent className="w-10 h-10 text-white" />
                 </div>
                 <h3 className="text-xl font-orbitron font-bold text-white mb-3 group-hover:text-neon-purple transition-colors">
                   {value.title}
@@ -120,7 +126,9 @@ const QuienesSomos = () => {
                 <p className="text-gray-300 font-space">
                   {value.description}
                 </p>
-              </div>)}
+              </div>
+            );
+          })}
           </div>
         </div>
       </section>
@@ -141,18 +149,21 @@ const QuienesSomos = () => {
             {[{
             title: 'Educación Práctica',
             description: 'Aprendizaje 100% hands-on con proyectos reales desde el primer día.',
-            icon: '🛠️'
+            icon: Wrench
           }, {
             title: 'Conexión Industrial',
             description: 'Vínculos directos con empresas líderes en tecnología y diseño digital.',
-            icon: '🏢'
+            icon: Building
           }, {
             title: 'Futuro Presente',
             description: 'Tecnologías emergentes que están definiendo el futuro hoy.',
-            icon: '🔮'
-          }].map((approach, index) => <div key={index} className="bg-black/60 p-8 rounded-2xl border border-neon-purple/20 hover:border-neon-purple/50 transition-all duration-300 text-center group hover:-translate-y-2">
-                <div className="text-5xl mb-6 group-hover:scale-110 transition-transform duration-300">
-                  {approach.icon}
+            icon: Crystal
+          }].map((approach, index) => {
+            const IconComponent = approach.icon;
+            return (
+              <div key={index} className="bg-black/60 p-8 rounded-2xl border border-neon-purple/20 hover:border-neon-purple/50 transition-all duration-300 text-center group hover:-translate-y-2">
+                <div className="mb-6 group-hover:scale-110 transition-transform duration-300 flex justify-center">
+                  <IconComponent className="w-12 h-12 text-white" />
                 </div>
                 <h3 className="text-2xl font-orbitron font-bold text-white mb-4 group-hover:text-neon-purple transition-colors">
                   {approach.title}
@@ -160,7 +171,9 @@ const QuienesSomos = () => {
                 <p className="text-gray-300 font-space leading-relaxed">
                   {approach.description}
                 </p>
-              </div>)}
+              </div>
+            );
+          })}
           </div>
         </div>
       </section>
