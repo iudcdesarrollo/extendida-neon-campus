@@ -16,7 +16,7 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="text-center lg:text-left animate-slide-up">
-            <h1 className="text-4xl md:text-6xl font-orbitron font-bold text-white mb-6 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-orbitron font-bold text-white mb-6 leading-relaxed">
               Domina las 
               <span className="block bg-subtle-gradient bg-clip-text text-transparent">
                 tecnologías
