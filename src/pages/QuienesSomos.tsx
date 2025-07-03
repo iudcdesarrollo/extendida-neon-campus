@@ -21,7 +21,7 @@ const QuienesSomos = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl font-orbitron font-bold text-white mb-6">
             Quiénes{' '}
-            <span className="bg-neon-gradient bg-clip-text text-transparent">
+            <span className="bg-neon-gradient bg-clip-text text-white">
               Somos
             </span>
           </h1>
