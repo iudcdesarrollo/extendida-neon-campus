@@ -1,4 +1,3 @@
-
 export interface Course {
   id: number;
   title: string;
@@ -93,7 +92,8 @@ export const courses: Course[] = [
     tools: ['Audacity', 'Reaper'],
     audience: 'Estudiantes y creadores de contenido sonoro para medios digitales',
     category: 'diseno',
-    image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400'
+    image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400',
+    hasDetailPage: true
   },
   {
     id: 8,
