@@ -10,6 +10,7 @@ import CursoDetalle from "./pages/CursoDetalle";
 import CursoDetalleTwine from "./pages/CursoDetalleTwine";
 import CursoDetalleIluminacion from "./pages/CursoDetalleIluminacion";
 import CursoDetalleGDevelop from "./pages/CursoDetalleGDevelop";
+import CursoDetalleAutomatizacion from "./pages/CursoDetalleAutomatizacion";
 import QuienesSomos from "./pages/QuienesSomos";
 import Contacto from "./pages/Contacto";
 import NotFound from "./pages/NotFound";
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/curso/2" element={<CursoDetalleTwine />} />
           <Route path="/curso/3" element={<CursoDetalleGDevelop />} />
           <Route path="/curso/5" element={<CursoDetalleIluminacion />} />
+          <Route path="/curso/6" element={<CursoDetalleAutomatizacion />} />
           <Route path="/quienes-somos" element={<QuienesSomos />} />
           <Route path="/contacto" element={<Contacto />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

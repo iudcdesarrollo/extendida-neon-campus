@@ -85,7 +85,8 @@ export const courses: Course[] = [
     tools: ['Blender', 'RenderMan', 'IA'],
     audience: 'Animadores, artistas 3D y técnicos interesados en IA aplicada a procesos técnicos',
     category: 'ia',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400'
+    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400',
+    hasDetailPage: true
   },
   {
     id: 7,
