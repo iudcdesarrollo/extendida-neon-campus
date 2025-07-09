@@ -128,7 +128,8 @@ export const courses: Course[] = [
     tools: ['Blender', 'Unity', 'Vuforia', 'Adobe Aero'],
     audience: 'Diseñadores de moda, desarrolladores creativos, docentes en visual merchandising',
     category: 'xr',
-    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400'
+    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400',
+    hasDetailPage: true
   },
   {
     id: 11,
