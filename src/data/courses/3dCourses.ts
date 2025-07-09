@@ -47,7 +47,8 @@ export const threeDCourses: Course[] = [
     tools: ['Blender', 'Unreal Engine'],
     audience: 'Estudiantes y profesionales en arquitectura, diseño de interiores, paisajismo, urbanismo',
     category: '3d',
-    image: 'https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=400'
+    image: 'https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=400',
+    hasDetailPage: true
   },
   {
     id: 17,
