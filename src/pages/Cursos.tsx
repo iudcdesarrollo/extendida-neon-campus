@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import WhatsAppButton from '../components/WhatsAppButton';
@@ -18,7 +19,8 @@ const Cursos = () => {
       tools: ['Blender', 'Krita', 'MakeHuman'],
       audience: 'Estudiantes y profesionales interesados en el diseño de personajes 3D para medios digitales',
       category: '3d',
-      image: 'https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=400'
+      image: 'https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=400',
+      hasDetailPage: true
     },
     {
       id: 2,
@@ -344,9 +346,18 @@ const Cursos = () => {
                   </p>
 
                   {/* CTA Button */}
-                  <button className="w-full bg-subtle-gradient text-white py-3 px-4 rounded-lg font-semibold hover:shadow-lg hover:shadow-primary-purple/50 transition-all duration-300 transform hover:scale-105">
-                    Ver más detalles
-                  </button>
+                  {course.hasDetailPage ? (
+                    <Link 
+                      to={`/curso/${course.id}`}
+                      className="block w-full bg-subtle-gradient text-white py-3 px-4 rounded-lg font-semibold hover:shadow-lg hover:shadow-primary-purple/50 transition-all duration-300 transform hover:scale-105 text-center"
+                    >
+                      Ver más detalles
+                    </Link>
+                  ) : (
+                    <button className="w-full bg-subtle-gradient text-white py-3 px-4 rounded-lg font-semibold hover:shadow-lg hover:shadow-primary-purple/50 transition-all duration-300 transform hover:scale-105">
+                      Ver más detalles
+                    </button>
+                  )}
                 </div>
               </div>
             ))}

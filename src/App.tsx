@@ -1,4 +1,5 @@
 
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -6,6 +7,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Cursos from "./pages/Cursos";
+import CursoDetalle from "./pages/CursoDetalle";
 import QuienesSomos from "./pages/QuienesSomos";
 import Contacto from "./pages/Contacto";
 import NotFound from "./pages/NotFound";
@@ -21,6 +23,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/cursos" element={<Cursos />} />
+          <Route path="/curso/:id" element={<CursoDetalle />} />
           <Route path="/quienes-somos" element={<QuienesSomos />} />
           <Route path="/contacto" element={<Contacto />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
@@ -32,3 +35,4 @@ const App = () => (
 );
 
 export default App;
+
