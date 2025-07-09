@@ -31,7 +31,8 @@ const Cursos = () => {
       tools: ['Twine', 'Ink'],
       audience: 'Narradores, guionistas y diseñadores interesados en storytelling interactivo',
       category: 'diseno',
-      image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400'
+      image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400',
+      hasDetailPage: true
     },
     {
       id: 3,
