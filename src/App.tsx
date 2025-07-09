@@ -13,6 +13,7 @@ import CursoDetalleGDevelop from "./pages/CursoDetalleGDevelop";
 import CursoDetalleAutomatizacion from "./pages/CursoDetalleAutomatizacion";
 import CursoDetalleFoley from "./pages/CursoDetalleFoley";
 import CursoDetalleSocialMedia from "./pages/CursoDetalleSocialMedia";
+import CursoDetalleFashionStorytelling from "./pages/CursoDetalleFashionStorytelling";
 import QuienesSomos from "./pages/QuienesSomos";
 import Contacto from "./pages/Contacto";
 import NotFound from "./pages/NotFound";
@@ -35,6 +36,7 @@ const App = () => (
           <Route path="/curso/6" element={<CursoDetalleAutomatizacion />} />
           <Route path="/curso/7" element={<CursoDetalleFoley />} />
           <Route path="/curso/8" element={<CursoDetalleSocialMedia />} />
+          <Route path="/curso/9" element={<CursoDetalleFashionStorytelling />} />
           <Route path="/quienes-somos" element={<QuienesSomos />} />
           <Route path="/contacto" element={<Contacto />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

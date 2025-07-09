@@ -116,7 +116,8 @@ export const courses: Course[] = [
     tools: ['Canva', 'DaVinci Resolve', 'OBS Studio', 'CapCut'],
     audience: 'Estudiantes de diseño de modas, emprendedores de moda, creadores de contenido fashion',
     category: 'diseno',
-    image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400'
+    image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400',
+    hasDetailPage: true
   },
   {
     id: 10,
