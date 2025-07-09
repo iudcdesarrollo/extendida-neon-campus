@@ -50,7 +50,8 @@ export const courses: Course[] = [
     tools: ['GDevelop'],
     audience: 'Personas con interés en crear videojuegos sin necesidad de saber programar',
     category: 'diseno',
-    image: 'https://images.unsplash.com/photo-1592478411213-6153e4ebc696?w=400'
+    image: 'https://images.unsplash.com/photo-1592478411213-6153e4ebc696?w=400',
+    hasDetailPage: true
   },
   {
     id: 4,
