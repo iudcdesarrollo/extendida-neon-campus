@@ -16,6 +16,7 @@ import CursoDetalleSocialMedia from "./pages/CursoDetalleSocialMedia";
 import CursoDetalleFashionStorytelling from "./pages/CursoDetalleFashionStorytelling";
 import CursoDetalleARFashion from "./pages/CursoDetalleARFashion";
 import CursoDetallePodcastVideocast from "./pages/CursoDetallePodcastVideocast";
+import CursoDetalleAIAudiovisual from "./pages/CursoDetalleAIAudiovisual";
 import QuienesSomos from "./pages/QuienesSomos";
 import Contacto from "./pages/Contacto";
 import NotFound from "./pages/NotFound";
@@ -41,6 +42,7 @@ const App = () => (
           <Route path="/curso/9" element={<CursoDetalleFashionStorytelling />} />
           <Route path="/curso/10" element={<CursoDetalleARFashion />} />
           <Route path="/curso/11" element={<CursoDetallePodcastVideocast />} />
+          <Route path="/curso/12" element={<CursoDetalleAIAudiovisual />} />
           <Route path="/quienes-somos" element={<QuienesSomos />} />
           <Route path="/contacto" element={<Contacto />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

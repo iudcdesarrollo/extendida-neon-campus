@@ -23,6 +23,7 @@ export const aiCourses: Course[] = [
     tools: ['Runway ML', 'ChatGPT', 'Descript', 'Pictory AI', 'Canva'],
     audience: 'Comunicadores, estudiantes y productores de medios digitales interesados en innovación narrativa',
     category: 'ia',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400'
+    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400',
+    hasDetailPage: true
   }
 ];
