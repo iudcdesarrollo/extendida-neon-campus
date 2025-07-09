@@ -10,6 +10,7 @@ import CursoDetalle from "./pages/CursoDetalle";
 import CursoDetalleTwine from "./pages/CursoDetalleTwine";
 import CursoDetalleIluminacion from "./pages/CursoDetalleIluminacion";
 import CursoDetalleGDevelop from "./pages/CursoDetalleGDevelop";
+import CursoDetalleTransmedia from "./pages/CursoDetalleTransmedia";
 import CursoDetalleAutomatizacion from "./pages/CursoDetalleAutomatizacion";
 import CursoDetalleFoley from "./pages/CursoDetalleFoley";
 import CursoDetalleSocialMedia from "./pages/CursoDetalleSocialMedia";
@@ -35,6 +36,7 @@ const App = () => (
           <Route path="/curso/1" element={<CursoDetalle />} />
           <Route path="/curso/2" element={<CursoDetalleTwine />} />
           <Route path="/curso/3" element={<CursoDetalleGDevelop />} />
+          <Route path="/curso/4" element={<CursoDetalleTransmedia />} />
           <Route path="/curso/5" element={<CursoDetalleIluminacion />} />
           <Route path="/curso/6" element={<CursoDetalleAutomatizacion />} />
           <Route path="/curso/7" element={<CursoDetalleFoley />} />
