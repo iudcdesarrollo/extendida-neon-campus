@@ -1,4 +1,3 @@
-
 export interface Course {
   id: number;
   title: string;
@@ -73,7 +72,8 @@ export const courses: Course[] = [
     tools: ['Blender', 'Unreal Engine'],
     audience: 'Artistas visuales, animadores y técnicos en producción digital',
     category: '3d',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400'
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400',
+    hasDetailPage: true
   },
   {
     id: 6,
