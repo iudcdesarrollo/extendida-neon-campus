@@ -34,6 +34,7 @@ export const xrCourses: Course[] = [
     tools: ['Unity', 'Figma', 'Blender'],
     audience: 'Arquitectos, diseñadores de espacios y desarrolladores XR',
     category: 'xr',
-    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400'
+    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400',
+    hasDetailPage: true
   }
 ];

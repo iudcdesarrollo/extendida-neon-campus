@@ -19,6 +19,7 @@ import CursoDetalleARFashion from "./pages/CursoDetalleARFashion";
 import CursoDetallePodcastVideocast from "./pages/CursoDetallePodcastVideocast";
 import CursoDetalleAIAudiovisual from "./pages/CursoDetalleAIAudiovisual";
 import CursoDetalleNarrativaEspacial from "./pages/CursoDetalleNarrativaEspacial";
+import CursoDetalleArquitecturaXR from "./pages/CursoDetalleArquitecturaXR";
 import QuienesSomos from "./pages/QuienesSomos";
 import Contacto from "./pages/Contacto";
 import NotFound from "./pages/NotFound";
@@ -47,6 +48,7 @@ const App = () => (
           <Route path="/curso/11" element={<CursoDetallePodcastVideocast />} />
           <Route path="/curso/12" element={<CursoDetalleAIAudiovisual />} />
           <Route path="/curso/14" element={<CursoDetalleNarrativaEspacial />} />
+          <Route path="/curso/15" element={<CursoDetalleArquitecturaXR />} />
           <Route path="/quienes-somos" element={<QuienesSomos />} />
           <Route path="/contacto" element={<Contacto />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
