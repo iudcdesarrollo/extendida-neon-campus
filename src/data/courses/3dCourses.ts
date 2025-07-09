@@ -56,9 +56,10 @@ export const threeDCourses: Course[] = [
     duration: '30 horas',
     priceStudent: '$450.000 COP',
     priceExternal: '$600.000 COP',
-    tools: ['Blender', 'ZBrushCoreMini', 'Sketchfab'],
-    audience: 'Estudiantes de veterinaria, biología, docentes, ilustradores científicos',
+    tools: ['Blender', 'Substance Painter', 'Sketchfab'],
+    audience: 'Estudiantes de medicina veterinaria, biología, animación científica y docentes',
     category: '3d',
-    image: 'https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=400'
+    image: 'https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=400',
+    hasDetailPage: true
   }
 ];

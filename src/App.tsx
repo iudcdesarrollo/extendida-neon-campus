@@ -21,6 +21,7 @@ import CursoDetalleAIAudiovisual from "./pages/CursoDetalleAIAudiovisual";
 import CursoDetalleNarrativaEspacial from "./pages/CursoDetalleNarrativaEspacial";
 import CursoDetalleArquitecturaXR from "./pages/CursoDetalleArquitecturaXR";
 import CursoDetalleVisualizacionArquitectonica from "./pages/CursoDetalleVisualizacionArquitectonica";
+import CursoDetalleModelado3DAnimales from "./pages/CursoDetalleModelado3DAnimales";
 import QuienesSomos from "./pages/QuienesSomos";
 import Contacto from "./pages/Contacto";
 import NotFound from "./pages/NotFound";
@@ -51,6 +52,7 @@ const App = () => (
           <Route path="/curso/14" element={<CursoDetalleNarrativaEspacial />} />
           <Route path="/curso/15" element={<CursoDetalleArquitecturaXR />} />
           <Route path="/curso/16" element={<CursoDetalleVisualizacionArquitectonica />} />
+          <Route path="/curso/17" element={<CursoDetalleModelado3DAnimales />} />
           <Route path="/quienes-somos" element={<QuienesSomos />} />
           <Route path="/contacto" element={<Contacto />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
