@@ -104,7 +104,8 @@ export const courses: Course[] = [
     tools: ['Blender', 'DaVinci Resolve', 'Canva'],
     audience: 'Creadores de contenido, community managers y emprendedores digitales',
     category: 'diseno',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400'
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400',
+    hasDetailPage: true
   },
   {
     id: 9,
