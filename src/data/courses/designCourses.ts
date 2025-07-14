@@ -3,6 +3,18 @@ import { Course } from '../courses';
 
 export const designCourses: Course[] = [
   {
+    id: 2,
+    title: 'Creación de Guiones Interactivos con Twine e Ink',
+    duration: '20 horas',
+    priceStudent: '$300.000 COP',
+    priceExternal: '$400.000 COP',
+    tools: ['Twine', 'Ink (open source)'],
+    audience: 'Narradores, guionistas y diseñadores interesados en storytelling interactivo',
+    category: 'diseno',
+    image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400',
+    hasDetailPage: true
+  },
+  {
     id: 4,
     title: 'Transmedia y Narrativas Interactivas para Campañas Sociales',
     duration: '30 horas',
