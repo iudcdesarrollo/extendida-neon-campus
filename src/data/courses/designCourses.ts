@@ -40,7 +40,7 @@ export const designCourses: Course[] = [
   },
   {
     id: 7,
-    title: 'Diseño de Audio Inmersivo: Creación de Paisajes Sonoros para Productos Audiovisuales con Foley',
+    title: 'Técnicas de Foley y Diseño Sonoro Creativo',
     duration: '20 horas',
     priceStudent: '$300.000 COP',
     priceExternal: '$400.000 COP',
