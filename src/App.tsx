@@ -10,6 +10,7 @@ import CursoDetalle from "./pages/CursoDetalle";
 import CursoDetalleTwine from "./pages/CursoDetalleTwine";
 import CursoDetalleIluminacion from "./pages/CursoDetalleIluminacion";
 import CursoDetalleGDevelop from "./pages/CursoDetalleGDevelop";
+import CursoDetalleUXUIXR from "./pages/CursoDetalleUXUIXR";
 import CursoDetalleTransmedia from "./pages/CursoDetalleTransmedia";
 import CursoDetalleAutomatizacion from "./pages/CursoDetalleAutomatizacion";
 import CursoDetalleFoley from "./pages/CursoDetalleFoley";
@@ -50,6 +51,7 @@ const App = () => (
           <Route path="/curso/11" element={<CursoDetallePodcastVideocast />} />
           <Route path="/curso/12" element={<CursoDetalleAIAudiovisual />} />
           <Route path="/curso/14" element={<CursoDetalleNarrativaEspacial />} />
+          <Route path="/curso/13" element={<CursoDetalleUXUIXR />} />
           <Route path="/curso/15" element={<CursoDetalleArquitecturaXR />} />
           <Route path="/curso/16" element={<CursoDetalleVisualizacionArquitectonica />} />
           <Route path="/curso/17" element={<CursoDetalleModelado3DAnimales />} />

@@ -3,7 +3,7 @@ import { Course } from '../courses';
 
 export const xrCourses: Course[] = [
   {
-    id: 4,
+    id: 13,
     title: 'Diseño UX/UI para Realidad Extendida (XR)',
     duration: '30 horas',
     priceStudent: '$450.000 COP',
@@ -11,7 +11,8 @@ export const xrCourses: Course[] = [
     tools: ['Figma', 'Unity', 'Prototipado XR'],
     audience: 'Diseñadores, desarrolladores y creativos interesados en experiencias inmersivas',
     category: 'xr',
-    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400'
+    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400',
+    hasDetailPage: true
   },
   {
     id: 10,
