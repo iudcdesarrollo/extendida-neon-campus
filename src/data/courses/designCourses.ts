@@ -85,5 +85,17 @@ export const designCourses: Course[] = [
     category: 'diseno',
     image: 'https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=400',
     hasDetailPage: true
+  },
+  {
+    id: 12,
+    title: 'Técnicas de Visualización de Datos e Historias con Datos',
+    duration: '30 horas',
+    priceStudent: '$450.000 COP',
+    priceExternal: '$600.000 COP',
+    tools: ['Flourish', 'Tableau Public', 'Canva', 'OBS'],
+    audience: 'Comunicadores, docentes, analistas, diseñadores, gestores culturales y científicos sociales',
+    category: 'diseno',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800',
+    hasDetailPage: true
   }
 ];
