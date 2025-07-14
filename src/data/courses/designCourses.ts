@@ -64,12 +64,12 @@ export const designCourses: Course[] = [
   },
   {
     id: 9,
-    title: 'Narrativas de Moda: Storytelling y Conceptualización de Colecciones',
-    duration: '25 horas',
-    priceStudent: '$375.000 COP',
-    priceExternal: '$500.000 COP',
-    tools: ['Moodboard', 'Pinterest', 'Adobe Creative Suite'],
-    audience: 'Diseñadores de moda, estilistas y creativos del sector textil',
+    title: 'Storytelling de Marca de Moda para Redes Sociales',
+    duration: '20 horas',
+    priceStudent: '$300.000 COP',
+    priceExternal: '$400.000 COP',
+    tools: ['Canva', 'DaVinci Resolve', 'OBS Studio', 'CapCut'],
+    audience: 'Estudiantes de diseño de modas, emprendedores de moda, creadores de contenido fashion',
     category: 'diseno',
     image: 'https://images.unsplash.com/photo-1445205170230-053b83016050?w=400',
     hasDetailPage: true
