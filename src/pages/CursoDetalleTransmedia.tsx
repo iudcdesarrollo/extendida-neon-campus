@@ -7,8 +7,10 @@ import CourseHero from '../components/courseDetail/CourseHero';
 import CourseContent from '../components/courseDetail/CourseContent';
 import EnrollmentForm from '../components/courseDetail/EnrollmentForm';
 import { transmediaCourseData } from '../data/transmediaCourseData';
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const CursoDetalleTransmedia = () => {
+  useScrollToTop();
   const courseData = {
     title: transmediaCourseData.title,
     duration: transmediaCourseData.duration,

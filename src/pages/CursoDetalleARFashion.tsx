@@ -7,8 +7,10 @@ import CourseHero from '../components/courseDetail/CourseHero';
 import CourseContent from '../components/courseDetail/CourseContent';
 import EnrollmentForm from '../components/courseDetail/EnrollmentForm';
 import { arFashionVisualizationCourseData } from '../data/arFashionVisualizationCourseData';
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const CursoDetalleARFashion = () => {
+  useScrollToTop();
   return (
     <div className="min-h-screen bg-dark-bg">
       <Navbar />

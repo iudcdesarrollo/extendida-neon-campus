@@ -7,8 +7,10 @@ import CourseHero from '../components/courseDetail/CourseHero';
 import CourseContent from '../components/courseDetail/CourseContent';
 import EnrollmentForm from '../components/courseDetail/EnrollmentForm';
 import { modelado3DAnimalesCourseData } from '../data/modelado3DAnimalesCourseData';
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const CursoDetalleModelado3DAnimales = () => {
+  useScrollToTop();
   return (
     <div className="min-h-screen bg-dark-bg">
       <Navbar />

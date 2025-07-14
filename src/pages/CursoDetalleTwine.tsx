@@ -7,8 +7,10 @@ import CourseHero from '../components/courseDetail/CourseHero';
 import CourseContent from '../components/courseDetail/CourseContent';
 import EnrollmentForm from '../components/courseDetail/EnrollmentForm';
 import { twineeCourseData } from '../data/twineeCourseData';
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const CursoDetalleTwine = () => {
+  useScrollToTop();
   return (
     <div className="min-h-screen bg-dark-bg">
       <Navbar />

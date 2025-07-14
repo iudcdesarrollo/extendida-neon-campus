@@ -7,8 +7,10 @@ import CourseHero from '../components/courseDetail/CourseHero';
 import CourseContent from '../components/courseDetail/CourseContent';
 import EnrollmentForm from '../components/courseDetail/EnrollmentForm';
 import { arquitecturaXRCourseData } from '../data/arquitecturaXRCourseData';
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const CursoDetalleArquitecturaXR = () => {
+  useScrollToTop();
   return (
     <div className="min-h-screen bg-dark-bg">
       <Navbar />

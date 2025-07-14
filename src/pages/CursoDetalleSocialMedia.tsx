@@ -7,8 +7,10 @@ import CourseHero from '../components/courseDetail/CourseHero';
 import CourseContent from '../components/courseDetail/CourseContent';
 import EnrollmentForm from '../components/courseDetail/EnrollmentForm';
 import { socialMediaContentCourseData } from '../data/socialMediaContentCourseData';
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const CursoDetalleSocialMedia = () => {
+  useScrollToTop();
   return (
     <div className="min-h-screen bg-dark-bg">
       <Navbar />

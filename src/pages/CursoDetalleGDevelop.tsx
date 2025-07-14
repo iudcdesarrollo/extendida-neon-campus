@@ -7,8 +7,10 @@ import CourseHero from '../components/courseDetail/CourseHero';
 import CourseContent from '../components/courseDetail/CourseContent';
 import EnrollmentForm from '../components/courseDetail/EnrollmentForm';
 import { gdevelopCourseData } from '../data/gdevelopCourseData';
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const CursoDetalleGDevelop = () => {
+  useScrollToTop();
   return (
     <div className="min-h-screen bg-dark-bg">
       <Navbar />
