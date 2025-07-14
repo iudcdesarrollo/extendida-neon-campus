@@ -22,6 +22,13 @@ const CourseContent: React.FC<CourseContentProps> = ({
   audience,
   sessionsContent
 }) => {
+  // Add debugging and safety checks
+  console.log('CourseContent props:', { description, tools, audience, sessionsContent });
+  
+  // Provide default values to prevent undefined errors
+  const safeTools = tools || [];
+  const safeSessionsContent = sessionsContent || [];
+  
   return (
     <div className="lg:col-span-2 space-y-12">
       {/* Description */}
@@ -40,7 +47,7 @@ const CourseContent: React.FC<CourseContentProps> = ({
           Herramientas
         </h2>
         <div className="flex flex-wrap gap-3">
-          {tools.map((tool, index) => (
+          {safeTools.map((tool, index) => (
             <span
               key={index}
               className="px-4 py-2 rounded-full text-sm font-semibold bg-accent-blue/20 text-accent-blue border border-accent-blue/30"
@@ -68,7 +75,7 @@ const CourseContent: React.FC<CourseContentProps> = ({
           📅 Contenido por Sesión
         </h2>
         <div className="space-y-4">
-          {sessionsContent.map((session, index) => (
+          {safeSessionsContent.map((session, index) => (
             <Card key={index} className="bg-black/60 border-primary-purple/20 hover:border-primary-purple/50 transition-colors">
               <CardHeader className="pb-3">
                 <CardTitle className="text-white font-orbitron flex items-center">
