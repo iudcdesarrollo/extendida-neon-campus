@@ -3,6 +3,18 @@ import { Course } from '../courses';
 
 export const designCourses: Course[] = [
   {
+    id: 1,
+    title: 'Desarrollo de Juegos 2D con GDevelop',
+    duration: '30 horas',
+    priceStudent: '$450.000 COP',
+    priceExternal: '$600.000 COP',
+    tools: ['GDevelop (open source)'],
+    audience: 'Personas con interés en crear videojuegos sin necesidad de saber programar',
+    category: 'diseno',
+    image: 'https://images.unsplash.com/photo-1592478411213-6153e4ebc696?w=800',
+    hasDetailPage: true
+  },
+  {
     id: 2,
     title: 'Creación de Guiones Interactivos con Twine e Ink',
     duration: '20 horas',
