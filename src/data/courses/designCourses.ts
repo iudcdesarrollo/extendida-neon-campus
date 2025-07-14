@@ -76,7 +76,7 @@ export const designCourses: Course[] = [
   },
   {
     id: 11,
-    title: 'Creación de Podcasts y Videocasts: Producción Integral de Contenido Sonoro y Audiovisual',
+    title: 'Diseño de Contenido para Podcast y VideoCast',
     duration: '25 horas',
     priceStudent: '$375.000 COP',
     priceExternal: '$500.000 COP',
