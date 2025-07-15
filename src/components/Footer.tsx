@@ -114,7 +114,7 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/41d3f0cf-4b86-4b4b-b86d-93cdad9ee711.png" 
                 alt="Logo" 
-                className="h-12 w-auto object-contain"
+                className="h-14 w-auto object-contain"
               />
             </div>
           </div>
