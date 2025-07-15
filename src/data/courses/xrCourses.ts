@@ -11,7 +11,7 @@ export const xrCourses: Course[] = [
     tools: ['Figma', 'Unity', 'Prototipado XR'],
     audience: 'Diseñadores, desarrolladores y creativos interesados en experiencias inmersivas',
     category: 'xr',
-    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400',
+    image: '/lovable-uploads/b480e4bf-df68-476f-816e-1228a5b23559.png',
     hasDetailPage: true
   },
   {
@@ -23,7 +23,7 @@ export const xrCourses: Course[] = [
     tools: ['Blender', 'Unity', 'Vuforia', 'Adobe Aero'],
     audience: 'Diseñadores de moda, desarrolladores creativos, docentes en visual merchandising',
     category: 'xr',
-    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400',
+    image: '/lovable-uploads/279c4498-2e42-43a7-8bdf-3bd31e431eb0.png',
     hasDetailPage: true
   },
   {
@@ -35,7 +35,7 @@ export const xrCourses: Course[] = [
     tools: ['Unity', 'Figma', 'Blender'],
     audience: 'Arquitectos, diseñadores de espacios y desarrolladores XR',
     category: 'xr',
-    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400',
+    image: '/lovable-uploads/279c4498-2e42-43a7-8bdf-3bd31e431eb0.png',
     hasDetailPage: true
   }
 ];

@@ -7,7 +7,7 @@ export const arquitecturaXRCourseData = {
   modality: 'Presencial',
   schedule: 'Lunes y Miércoles de 2:00 p.m. a 6:00 p.m.',
   sessions: '7.5 sesiones de 4 horas',
-  image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400',
+  image: '/lovable-uploads/279c4498-2e42-43a7-8bdf-3bd31e431eb0.png',
   description: 'Este curso se centra en la aplicación de principios de usabilidad, accesibilidad y diseño centrado en el usuario a los entornos inmersivos de la arquitectura XR. Ideal para proyectos de visualización interactiva y experiencias de realidad extendida, los participantes aprenderán a diseñar interfaces que permitan una interacción intuitiva y fluida dentro de espacios virtuales y aumentados. Se explorarán métodos para garantizar que las experiencias arquitectónicas digitales sean no solo estéticas, sino también funcionales y accesibles para todos los usuarios.',
   tools: ['Unity', 'Figma', 'Blender'],
   audience: 'Arquitectos, diseñadores de espacios y desarrolladores XR',

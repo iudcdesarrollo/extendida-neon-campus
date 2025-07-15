@@ -7,7 +7,7 @@ export const foleyCourseData = {
   modality: 'Presencial',
   schedule: 'Lunes de 2:00 p.m. a 6:00 p.m.',
   sessions: '5 sesiones de 4 horas',
-  image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400',
+  image: '/lovable-uploads/29d69d60-ebe2-442a-9d2a-fee052080ea6.png',
   description: 'Desbloquea el poder del sonido para enriquecer tus producciones audiovisuales y multimedia. Este curso práctico te sumerge en las técnicas de Foley, aprendiendo a crear efectos de sonido realistas desde cero, y las combina con un diseño sonoro creativo para construir paisajes auditivos inmersivos. Los participantes explorarán cómo manipular y mezclar sonidos para evocar emociones, mejorar la narrativa y añadir profundidad a cualquier proyecto. Se trabajará con herramientas accesibles y poderosas para la producción de audio.',
   tools: ['Audacity', 'Reaper'],
   audience: 'Estudiantes y creadores de contenido sonoro para medios digitales',

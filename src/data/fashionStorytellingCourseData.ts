@@ -28,7 +28,7 @@ export const fashionStorytellingCourseData: CourseData = {
   modality: "Presencial",
   schedule: "Miércoles de 2:00 p.m. a 6:00 p.m.",
   sessions: "5 sesiones de 4 horas",
-  image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400",
+  image: "/lovable-uploads/043a7040-4501-4dad-8a8e-59d9ee18e4df.png",
   description: "Este curso es una inmersión en el diseño narrativo y visual aplicado específicamente al sector de la moda. Aprenderás a construir y comunicar una marca personal o de colección de moda de manera impactante, utilizando recursos gráficos, animación básica y lenguaje audiovisual adaptado para plataformas como Instagram y TikTok. Desde la conceptualización de la historia de la marca hasta la producción de contenido atractivo, los participantes desarrollarán las habilidades para crear una presencia digital distintiva en la industria de la moda.",
   tools: ["Canva", "DaVinci Resolve", "OBS Studio", "CapCut"],
   audience: "Estudiantes de diseño de modas, emprendedores de moda, creadores de contenido fashion",

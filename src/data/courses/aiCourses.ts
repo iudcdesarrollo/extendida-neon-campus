@@ -11,7 +11,7 @@ export const aiCourses: Course[] = [
     tools: ['Blender', 'RenderMan', 'IA'],
     audience: 'Animadores, artistas 3D y técnicos interesados en IA aplicada a procesos técnicos',
     category: 'ia',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400',
+    image: '/lovable-uploads/30a4951f-b879-4be0-8179-5bb9f4ef3569.png',
     hasDetailPage: true
   },
   {
@@ -23,7 +23,7 @@ export const aiCourses: Course[] = [
     tools: ['Runway ML', 'ChatGPT', 'Descript', 'Pictory AI', 'Canva'],
     audience: 'Comunicadores, estudiantes y productores de medios digitales interesados en innovación narrativa',
     category: 'ia',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400',
+    image: '/lovable-uploads/1f77ba4b-0952-423a-b6ed-bf67746eb458.png',
     hasDetailPage: true
   }
 ];

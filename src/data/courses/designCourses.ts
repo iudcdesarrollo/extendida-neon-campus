@@ -11,7 +11,7 @@ export const designCourses: Course[] = [
     tools: ['GDevelop (open source)'],
     audience: 'Personas con interés en crear videojuegos sin necesidad de saber programar',
     category: 'diseno',
-    image: 'https://images.unsplash.com/photo-1592478411213-6153e4ebc696?w=800',
+    image: '/lovable-uploads/7b3994d0-a908-4a39-bbef-d4743b5c9d1c.png',
     hasDetailPage: true
   },
   {
@@ -23,7 +23,7 @@ export const designCourses: Course[] = [
     tools: ['Twine', 'Ink (open source)'],
     audience: 'Narradores, guionistas y diseñadores interesados en storytelling interactivo',
     category: 'diseno',
-    image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400',
+    image: '/lovable-uploads/bcb5d844-5074-4efa-b0af-78a4010aac2b.png',
     hasDetailPage: true
   },
   {
@@ -35,7 +35,7 @@ export const designCourses: Course[] = [
     tools: ['Twine', 'Canva', 'Instagram', 'TikTok', 'Notion'],
     audience: 'Profesionales de la comunicación, ONGs, estudiantes de comunicación y ciencias sociales',
     category: 'diseno',
-    image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400',
+    image: '/lovable-uploads/bcb5d844-5074-4efa-b0af-78a4010aac2b.png',
     hasDetailPage: true
   },
   {
@@ -47,7 +47,7 @@ export const designCourses: Course[] = [
     tools: ['Pro Tools', 'Audacity', 'Reaper'],
     audience: 'Productores audiovisuales, editores y diseñadores de sonido',
     category: 'diseno',
-    image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=400',
+    image: '/lovable-uploads/29d69d60-ebe2-442a-9d2a-fee052080ea6.png',
     hasDetailPage: true
   },
   {
@@ -59,7 +59,7 @@ export const designCourses: Course[] = [
     tools: ['Blender', 'DaVinci Resolve', 'Canva'],
     audience: 'Creadores de contenido, community managers y emprendedores digitales',
     category: 'diseno',
-    image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400',
+    image: '/lovable-uploads/043a7040-4501-4dad-8a8e-59d9ee18e4df.png',
     hasDetailPage: true
   },
   {
@@ -71,7 +71,7 @@ export const designCourses: Course[] = [
     tools: ['Canva', 'DaVinci Resolve', 'OBS Studio', 'CapCut'],
     audience: 'Estudiantes de diseño de modas, emprendedores de moda, creadores de contenido fashion',
     category: 'diseno',
-    image: 'https://images.unsplash.com/photo-1445205170230-053b83016050?w=400',
+    image: '/lovable-uploads/043a7040-4501-4dad-8a8e-59d9ee18e4df.png',
     hasDetailPage: true
   },
   {
@@ -83,7 +83,7 @@ export const designCourses: Course[] = [
     tools: ['Audacity', 'Adobe Premiere', 'Anchor'],
     audience: 'Comunicadores, creadores de contenido y emprendedores digitales',
     category: 'diseno',
-    image: 'https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=400',
+    image: '/lovable-uploads/29d69d60-ebe2-442a-9d2a-fee052080ea6.png',
     hasDetailPage: true
   },
   {
@@ -95,7 +95,7 @@ export const designCourses: Course[] = [
     tools: ['Flourish', 'Tableau Public', 'Canva', 'OBS'],
     audience: 'Comunicadores, docentes, analistas, diseñadores, gestores culturales y científicos sociales',
     category: 'diseno',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800',
+    image: '/lovable-uploads/30a4951f-b879-4be0-8179-5bb9f4ef3569.png',
     hasDetailPage: true
   }
 ];

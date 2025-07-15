@@ -7,7 +7,7 @@ export const visualizacionArquitectonicaCourseData = {
   modality: 'Presencial',
   schedule: 'Martes y Jueves de 2:00 p.m. a 6:00 p.m.',
   sessions: '10 sesiones de 4 horas',
-  image: 'https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=400',
+  image: '/lovable-uploads/279c4498-2e42-43a7-8bdf-3bd31e431eb0.png',
   description: 'Lleva tus proyectos arquitectónicos a la vida con este curso avanzado en visualización, creando renders fotorrealistas en tiempo real, escenas cinemáticas y recorridos virtuales inmersivos. Aprenderás a integrar tu diseño técnico con una estética visual avanzada, utilizando Blender para el modelado y Unreal Engine para la renderización en tiempo real y la creación de experiencias interactivas. Este programa intensivo te permitirá producir presentaciones arquitectónicas de vanguardia.',
   tools: ['Blender', 'Unreal Engine'],
   audience: 'Estudiantes y profesionales en arquitectura, diseño de interiores, paisajismo, urbanismo.',

@@ -11,7 +11,7 @@ export const threeDCourses: Course[] = [
     tools: ['Blender', 'Krita', 'MakeHuman'],
     audience: 'Estudiantes y profesionales interesados en el diseño de personajes 3D para medios digitales',
     category: '3d',
-    image: 'https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=400',
+    image: '/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
     hasDetailPage: true
   },
   {
@@ -23,7 +23,7 @@ export const threeDCourses: Course[] = [
     tools: ['Blender', 'Unreal Engine'],
     audience: 'Artistas visuales, animadores y técnicos en producción digital',
     category: '3d',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400',
+    image: '/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
     hasDetailPage: true
   },
   {
@@ -35,7 +35,7 @@ export const threeDCourses: Course[] = [
     tools: ['Blender', 'Unreal Engine', 'Figma'],
     audience: 'Estudiantes y profesionales de arquitectura, diseño de espacios, visualización 3D',
     category: '3d',
-    image: 'https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=400',
+    image: '/lovable-uploads/bcb5d844-5074-4efa-b0af-78a4010aac2b.png',
     hasDetailPage: true
   },
   {
@@ -47,7 +47,7 @@ export const threeDCourses: Course[] = [
     tools: ['Blender', 'Unreal Engine'],
     audience: 'Estudiantes y profesionales en arquitectura, diseño de interiores, paisajismo, urbanismo',
     category: '3d',
-    image: 'https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=400',
+    image: '/lovable-uploads/279c4498-2e42-43a7-8bdf-3bd31e431eb0.png',
     hasDetailPage: true
   },
   {
@@ -59,7 +59,7 @@ export const threeDCourses: Course[] = [
     tools: ['Blender', 'Substance Painter', 'Sketchfab'],
     audience: 'Estudiantes de medicina veterinaria, biología, animación científica y docentes',
     category: '3d',
-    image: 'https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=400',
+    image: '/lovable-uploads/a3f59a77-68f8-480f-ac3f-19dd7343ae7d.png',
     hasDetailPage: true
   }
 ];

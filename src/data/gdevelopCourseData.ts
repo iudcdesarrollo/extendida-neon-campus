@@ -7,7 +7,7 @@ export const gdevelopCourseData = {
   modality: 'Presencial',
   schedule: 'Martes y Jueves de 2:00 p.m. a 6:00 p.m.',
   sessions: '7.5 sesiones de 4 horas',
-  image: 'https://images.unsplash.com/photo-1592478411213-6153e4ebc696?w=800',
+  image: '/lovable-uploads/7b3994d0-a908-4a39-bbef-d4743b5c9d1c.png',
   description: 'Este curso es la puerta de entrada para cualquiera que sueñe con crear videojuegos 2D sin necesidad de escribir código. Guiados por expertos, los participantes aprenderán a combinar la creatividad artística con la lógica de juego para desarrollar experiencias interactivas completas. Desde el diseño de niveles y personajes hasta la implementación de mecánicas de juego, GDevelop será la herramienta central para transformar ideas en juegos funcionales. El enfoque práctico asegura que los estudiantes salgan con su propio proyecto de juego 2D terminado.',
   tools: ['GDevelop (open source)'],
   audience: 'Personas con interés en crear videojuegos sin necesidad de saber programar',

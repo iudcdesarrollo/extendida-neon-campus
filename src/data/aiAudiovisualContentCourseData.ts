@@ -7,7 +7,7 @@ export const aiAudiovisualContentCourseData = {
   modality: 'Presencial',
   schedule: 'Martes y Jueves de 2:00 p.m. a 6:00 p.m.',
   sessions: '7.5 sesiones de 4 horas',
-  image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400',
+  image: '/lovable-uploads/1f77ba4b-0952-423a-b6ed-bf67746eb458.png',
   description: 'Descubre el potencial transformador de la inteligencia artificial en la producción de contenido audiovisual para la comunicación digital y el periodismo narrativo. Este curso explora cómo las herramientas de IA pueden facilitar y optimizar la creación de historias interactivas y campañas de impacto. Los participantes aprenderán a utilizar generadores de texto, voz e imagen basados en IA para enriquecer sus narrativas, desde la escritura de guiones asistida por IA hasta la creación de avatares y la edición automatizada de video.',
   tools: ['Runway ML', 'ChatGPT', 'Descript', 'Pictory AI', 'Canva'],
   audience: 'Comunicadores, estudiantes y productores de medios digitales interesados en innovación narrativa.',

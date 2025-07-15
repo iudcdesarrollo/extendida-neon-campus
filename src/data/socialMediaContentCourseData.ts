@@ -9,7 +9,7 @@ export const socialMediaContentCourseData = {
   modality: 'Presencial',
   schedule: 'Martes de 2:00 p.m. a 6:00 p.m.',
   sessions: '5 sesiones de 4 horas',
-  image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400',
+  image: '/lovable-uploads/043a7040-4501-4dad-8a8e-59d9ee18e4df.png',
   description: 'Aprende a captar la atención en el dinámico mundo de las redes sociales con piezas animadas y visuales impactantes. Este curso intensivo se enfoca en el desarrollo rápido de contenido, integrando storytelling efectivo, branding coherente y el uso estratégico de herramientas de edición para plataformas como Instagram, TikTok y YouTube. Los participantes aprenderán a conceptualizar, producir y animar gráficos y videos cortos que resuenen con sus audiencias y amplifiquen su mensaje.',
   tools: ['Blender', 'DaVinci Resolve', 'Canva'],
   audience: 'Creadores de contenido, community managers y emprendedores digitales',
