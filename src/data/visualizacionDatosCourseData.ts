@@ -6,7 +6,7 @@ export const visualizacionDatosCourseData = {
   sessions: '7.5 sesiones de 4 horas',
   priceStudent: '$450.000 COP',
   priceExternal: '$600.000 COP',
-  image: '/lovable-uploads/30a4951f-b879-4be0-8179-5bb9f4ef3569.png',
+  image: '/lovable-uploads/d73c226b-2023-4952-aa14-4719ae95fa60.png',
   description: 'Transforma datos complejos en narrativas claras y convincentes con este curso enfocado en la visualización de datos. Aprende a contar historias con datos. Desde el análisis inicial hasta la visualización efectiva usando diseño gráfico, animación y herramientas interactivas. Ideal para profesionales que buscan comunicar información de manera accesible y atractiva, este programa te equipará con las habilidades para diseñar infografías, dashboards y animaciones que resuenen con cualquier audiencia.',
   tools: ['Flourish', 'Tableau Public', 'Canva', 'OBS'],
   audience: 'Comunicadores, docentes, analistas, diseñadores, gestores culturales y científicos sociales',

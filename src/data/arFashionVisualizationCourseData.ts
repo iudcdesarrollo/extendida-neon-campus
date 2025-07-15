@@ -7,7 +7,7 @@ export const arFashionVisualizationCourseData = {
   modality: 'Presencial',
   schedule: 'Jueves y Viernes de 2:00 p.m. a 6:00 p.m.',
   sessions: '7.5 sesiones de 4 horas',
-  image: '/lovable-uploads/279c4498-2e42-43a7-8bdf-3bd31e431eb0.png',
+  image: '/lovable-uploads/a5ef8d56-0f74-4dfd-a37c-3017335476b3.png',
   description: 'Transforma la manera en que se exhiben las colecciones de moda y accesorios con este curso innovador que enseña a prototipar y visualizar prendas en Realidad Aumentada (AR). Utilizando modelos 3D y herramientas accesibles, los participantes aprenderán a crear experiencias inmersivas ideales para desfiles digitales, showrooms virtuales y engagement de clientes. Este curso es fundamental para llevar la presentación de productos de moda al siguiente nivel tecnológico.',
   tools: ['Blender', 'Unity', 'Vuforia', 'Adobe Aero'],
   audience: 'Diseñadores de moda, desarrolladores creativos, docentes en visual merchandising',
