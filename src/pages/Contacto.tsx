@@ -141,7 +141,7 @@ const Contacto = () => {
                   <p className="text-neon-green font-space font-bold text-lg mb-4 text-white">
                     📱 310 782 3744
                   </p>
-                  <a href="https://wa.me/573107823744" target="_blank" rel="noopener noreferrer" className="inline-block bg-neon-green text-black px-6 py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-neon-green/50 transition-all duration-300 transform hover:scale-105">
+                  <a href="https://wa.me/573107823744" target="_blank" rel="noopener noreferrer" className="inline-block bg-neon-green text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-neon-green/50 transition-all duration-300 transform hover:scale-105">
                     Chatear Ahora
                   </a>
                 </div>
