@@ -23,7 +23,7 @@ export const xrCourses: Course[] = [
     tools: ['Blender', 'Unity', 'Vuforia', 'Adobe Aero'],
     audience: 'Diseñadores de moda, desarrolladores creativos, docentes en visual merchandising',
     category: 'xr',
-    image: '/lovable-uploads/279c4498-2e42-43a7-8bdf-3bd31e431eb0.png',
+    image: '/lovable-uploads/a5ef8d56-0f74-4dfd-a37c-3017335476b3.png',
     hasDetailPage: true
   },
   {

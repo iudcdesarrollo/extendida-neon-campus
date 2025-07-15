@@ -35,7 +35,7 @@ export const designCourses: Course[] = [
     tools: ['Twine', 'Canva', 'Instagram', 'TikTok', 'Notion'],
     audience: 'Profesionales de la comunicación, ONGs, estudiantes de comunicación y ciencias sociales',
     category: 'diseno',
-    image: '/lovable-uploads/bcb5d844-5074-4efa-b0af-78a4010aac2b.png',
+    image: '/lovable-uploads/0fedadd0-d0c5-4f1f-a71a-9898e3a42523.png',
     hasDetailPage: true
   },
   {
@@ -47,7 +47,7 @@ export const designCourses: Course[] = [
     tools: ['Pro Tools', 'Audacity', 'Reaper'],
     audience: 'Productores audiovisuales, editores y diseñadores de sonido',
     category: 'diseno',
-    image: '/lovable-uploads/29d69d60-ebe2-442a-9d2a-fee052080ea6.png',
+    image: '/lovable-uploads/9efd6f94-d5de-482c-bccc-1d177f49fd0c.png',
     hasDetailPage: true
   },
   {
@@ -71,7 +71,7 @@ export const designCourses: Course[] = [
     tools: ['Canva', 'DaVinci Resolve', 'OBS Studio', 'CapCut'],
     audience: 'Estudiantes de diseño de modas, emprendedores de moda, creadores de contenido fashion',
     category: 'diseno',
-    image: '/lovable-uploads/043a7040-4501-4dad-8a8e-59d9ee18e4df.png',
+    image: '/lovable-uploads/66f7c2c6-013e-4e68-a38e-3c70b10602a5.png',
     hasDetailPage: true
   },
   {
@@ -95,7 +95,7 @@ export const designCourses: Course[] = [
     tools: ['Flourish', 'Tableau Public', 'Canva', 'OBS'],
     audience: 'Comunicadores, docentes, analistas, diseñadores, gestores culturales y científicos sociales',
     category: 'diseno',
-    image: '/lovable-uploads/30a4951f-b879-4be0-8179-5bb9f4ef3569.png',
+    image: '/lovable-uploads/d73c226b-2023-4952-aa14-4719ae95fa60.png',
     hasDetailPage: true
   }
 ];

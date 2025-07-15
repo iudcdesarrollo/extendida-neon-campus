@@ -23,7 +23,7 @@ export const threeDCourses: Course[] = [
     tools: ['Blender', 'Unreal Engine'],
     audience: 'Artistas visuales, animadores y técnicos en producción digital',
     category: '3d',
-    image: '/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
+    image: '/lovable-uploads/89eef61a-9d23-4525-8bcd-7a24b277b28a.png',
     hasDetailPage: true
   },
   {
@@ -35,7 +35,7 @@ export const threeDCourses: Course[] = [
     tools: ['Blender', 'Unreal Engine', 'Figma'],
     audience: 'Estudiantes y profesionales de arquitectura, diseño de espacios, visualización 3D',
     category: '3d',
-    image: '/lovable-uploads/bcb5d844-5074-4efa-b0af-78a4010aac2b.png',
+    image: '/lovable-uploads/b17f73e3-c77a-46b7-b766-d984499efa82.png',
     hasDetailPage: true
   },
   {
@@ -47,7 +47,7 @@ export const threeDCourses: Course[] = [
     tools: ['Blender', 'Unreal Engine'],
     audience: 'Estudiantes y profesionales en arquitectura, diseño de interiores, paisajismo, urbanismo',
     category: '3d',
-    image: '/lovable-uploads/279c4498-2e42-43a7-8bdf-3bd31e431eb0.png',
+    image: '/lovable-uploads/e5c79d4f-6db1-4777-b8b2-0fa686e73de8.png',
     hasDetailPage: true
   },
   {
