@@ -3,7 +3,6 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import WhatsAppButton from '../components/WhatsAppButton';
 import { Target, Rocket, Lightbulb, Handshake, Palette, Zap, Wrench, Building, Gem } from 'lucide-react';
-
 const QuienesSomos = () => {
   return <div className="min-h-screen bg-dark-bg">
       <Navbar />
@@ -27,9 +26,7 @@ const QuienesSomos = () => {
               Somos
             </span>
           </h1>
-          <p className="text-xl text-gray-300 font-space max-w-3xl mx-auto">
-            Somos pioneros en la formación tecnológica del futuro, conectando la creatividad con la innovación digital.
-          </p>
+          <p className="text-xl text-gray-300 font-space max-w-3xl mx-auto">En el Centro Interdisciplinar de Creación Digital de la Institución Universitaria de Colombia somos pioneros en la formación tecnológica del futuro, conectando creatividad e innovación digital.</p>
         </div>
       </section>
 
@@ -114,8 +111,7 @@ const QuienesSomos = () => {
             description: 'Comprometidos con la calidad en todo lo que hacemos'
           }].map((value, index) => {
             const IconComponent = value.icon;
-            return (
-              <div key={index} className="text-center group hover:-translate-y-2 transition-transform duration-300">
+            return <div key={index} className="text-center group hover:-translate-y-2 transition-transform duration-300">
                 <div className="w-20 h-20 bg-neon-gradient rounded-full flex items-center justify-center mx-auto mb-4 group-hover:animate-glow">
                   <IconComponent className="w-10 h-10 text-white" />
                 </div>
@@ -125,8 +121,7 @@ const QuienesSomos = () => {
                 <p className="text-gray-300 font-space">
                   {value.description}
                 </p>
-              </div>
-            );
+              </div>;
           })}
           </div>
         </div>
@@ -159,8 +154,7 @@ const QuienesSomos = () => {
             icon: Gem
           }].map((approach, index) => {
             const IconComponent = approach.icon;
-            return (
-              <div key={index} className="bg-black/60 p-8 rounded-2xl border border-neon-purple/20 hover:border-neon-purple/50 transition-all duration-300 text-center group hover:-translate-y-2">
+            return <div key={index} className="bg-black/60 p-8 rounded-2xl border border-neon-purple/20 hover:border-neon-purple/50 transition-all duration-300 text-center group hover:-translate-y-2">
                 <div className="mb-6 group-hover:scale-110 transition-transform duration-300 flex justify-center">
                   <IconComponent className="w-12 h-12 text-white" />
                 </div>
@@ -170,8 +164,7 @@ const QuienesSomos = () => {
                 <p className="text-gray-300 font-space leading-relaxed">
                   {approach.description}
                 </p>
-              </div>
-            );
+              </div>;
           })}
           </div>
         </div>
