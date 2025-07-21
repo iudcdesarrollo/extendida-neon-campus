@@ -23,7 +23,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center">
             <div className="w-22 h-12 flex items-center justify-center">
               <img 
-                src="/lovable-uploads/c9705e28-40cf-4465-90c8-7ff83c94f94d.png" 
+                src="/lovable-uploads/8b1e7650-cdc7-488e-92e9-bbdef0ef8af6.png" 
                 alt="Aula Extendida Logo" 
                 className="w-22 h-12 object-contain"
               />
