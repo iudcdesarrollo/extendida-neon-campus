@@ -70,7 +70,7 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
         </div>
 
         {/* Audience */}
-        <p className="text-white font-space text-sm mb-6 leading-relaxed">
+        <p className="text-white font-space text-sm mb-6 leading-relaxed line-clamp-2">
           <Users className="inline w-4 h-4 text-white mr-2" />
           {course.audience}
         </p>
