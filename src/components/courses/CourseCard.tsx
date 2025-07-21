@@ -58,11 +58,11 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
         </div>
 
         {/* Tools */}
-        <div className="flex flex-wrap gap-2 mb-4">
+        <div className="flex flex-wrap gap-2 mb-4 overflow-hidden" style={{ maxHeight: '2rem' }}>
           {course.tools.map((tool, index) => (
             <span
               key={index}
-              className="px-3 py-1 rounded-full text-xs font-semibold bg-accent-blue/20 text-accent-blue border border-accent-blue/30"
+              className="px-3 py-1 rounded-full text-xs font-semibold bg-accent-blue/20 text-accent-blue border border-accent-blue/30 whitespace-nowrap"
             >
               {tool}
             </span>
