@@ -19,7 +19,7 @@ const FAQ = () => {
     },
     {
       question: '¿Cuánto duran los cursos?',
-      answer: 'Nuestros cursos están diseñados para ser intensivos pero manejables. La duración varía entre 20 y 40 horas, distribuidas en sesiones prácticas de 2-3 horas por semana.'
+      answer: "Nuestros cursos están diseñados para ser intensivos pero manejables. La duración varía entre 20 y 40 horas, distribuidas en sesiones prácticas de 2 - 10 horas por semana."
     }
   ];
 
