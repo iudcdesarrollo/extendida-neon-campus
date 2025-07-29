@@ -54,7 +54,7 @@ const FreeResources = () => {
             return (
               <div
                 key={index}
-                className="group bg-black/60 p-6 rounded-2xl border border-gray-700/50 hover:border-primary-purple/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary-purple/20 hover:-translate-y-2"
+                className="group bg-black/60 p-6 rounded-2xl border border-gray-700/50 hover:border-primary-purple/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary-purple/20 hover:-translate-y-2 flex flex-col h-full"
               >
                 {/* Icon */}
                 <div className="mb-4 group-hover:scale-110 transition-transform duration-300">
@@ -67,7 +67,7 @@ const FreeResources = () => {
                 </h3>
 
                 {/* Description */}
-                <p className="text-gray-300 font-space text-sm mb-6 leading-relaxed">
+                <p className="text-gray-300 font-space text-sm mb-6 leading-relaxed flex-grow">
                   {resource.description}
                 </p>
 
