@@ -6,8 +6,10 @@ import WhatsAppButton from '../components/WhatsAppButton';
 import CourseFilters from '../components/courses/CourseFilters';
 import CoursesGrid from '../components/courses/CoursesGrid';
 import { courses, categories } from '../data/coursesData';
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const Cursos = () => {
+  useScrollToTop();
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('todos');
 

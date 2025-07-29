@@ -7,8 +7,10 @@ import FreeResources from '../components/FreeResources';
 import FAQ from '../components/FAQ';
 import Footer from '../components/Footer';
 import WhatsAppButton from '../components/WhatsAppButton';
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const Index = () => {
+  useScrollToTop();
   return (
     <div className="min-h-screen bg-dark-bg">
       <Navbar />

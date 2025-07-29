@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import WhatsAppButton from '../components/WhatsAppButton';
+import useScrollToTop from '../hooks/useScrollToTop';
+
 const Contacto = () => {
+  useScrollToTop();
   const [formData, setFormData] = useState({
     nombre: '',
     correo: '',

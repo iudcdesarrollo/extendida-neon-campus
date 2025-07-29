@@ -47,7 +47,15 @@ const Navbar = () => {
               </Link>
             ))}
             
-            <button className="bg-subtle-gradient text-white px-6 py-2 rounded-lg font-semibold hover:shadow-lg hover:shadow-primary-purple/50 transition-all duration-300 transform hover:scale-105">
+            <button 
+              onClick={() => {
+                const phoneNumber = '573107823744';
+                const message = 'Hola! Me interesa inscribirme en un curso de Aula Extendida';
+                const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+                window.open(whatsappUrl, '_blank');
+              }}
+              className="bg-subtle-gradient text-white px-6 py-2 rounded-lg font-semibold hover:shadow-lg hover:shadow-primary-purple/50 transition-all duration-300 transform hover:scale-105"
+            >
               Inscribirme
             </button>
           </div>
@@ -85,7 +93,16 @@ const Navbar = () => {
                   {item.name}
                 </Link>
               ))}
-              <button className="w-full bg-subtle-gradient text-white px-6 py-2 rounded-lg font-semibold mt-4">
+              <button 
+                onClick={() => {
+                  const phoneNumber = '573107823744';
+                  const message = 'Hola! Me interesa inscribirme en un curso de Aula Extendida';
+                  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+                  window.open(whatsappUrl, '_blank');
+                  setIsMenuOpen(false);
+                }}
+                className="w-full bg-subtle-gradient text-white px-6 py-2 rounded-lg font-semibold mt-4"
+              >
                 Inscribirme
               </button>
             </div>
