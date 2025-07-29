@@ -3,7 +3,7 @@ import { Course } from '../courses';
 
 export const threeDCourses: Course[] = [
   {
-    id: 1,
+    id: 3,
     title: 'Diseño y Modelado de Personajes en Blender',
     duration: '30 horas',
     priceStudent: '$450.000 COP',

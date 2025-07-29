@@ -55,7 +55,7 @@ export const visualizacionArquitectonicaCourseData = {
     {
       number: 9,
       title: 'Post-Procesado y Color Grading en Unreal Engine',
-      content: 'Efectos de post-procesado, corrección de color, atmosféricos.'
+      content: 'Efectos de post-procesado, corrección de color y efectos atmosféricos.'
     },
     {
       number: 10,

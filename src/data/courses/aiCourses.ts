@@ -15,7 +15,7 @@ export const aiCourses: Course[] = [
     hasDetailPage: true
   },
   {
-    id: 12,
+    id: 13,
     title: 'Creación de Contenido Audiovisual con IA para Narrativas Digitales',
     duration: '30 horas',
     priceStudent: '$450.000 COP',

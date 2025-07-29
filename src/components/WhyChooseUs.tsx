@@ -17,7 +17,7 @@ const WhyChooseUs = () => {
     {
       icon: Users,
       title: 'Docentes en ejercicio profesional',
-      description: 'No solo enseñan, también crean, diseñan y producen en activo.'
+      description: 'No solo enseñan, también crean, diseñan y son profesionales en activo.'
     }
   ];
 

@@ -3,7 +3,7 @@ import { Course } from '../courses';
 
 export const xrCourses: Course[] = [
   {
-    id: 13,
+    id: 15,
     title: 'Diseño UX/UI para Realidad Extendida (XR)',
     duration: '30 horas',
     priceStudent: '$450.000 COP',
@@ -27,7 +27,7 @@ export const xrCourses: Course[] = [
     hasDetailPage: true
   },
   {
-    id: 15,
+    id: 18,
     title: 'Diseño UX/UI de Espacios Interactivos para Arquitectura XR',
     duration: '30 horas',
     priceStudent: '$450.000 COP',
