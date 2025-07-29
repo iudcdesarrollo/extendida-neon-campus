@@ -10,7 +10,7 @@ export const xrCourses: Course[] = [
     priceExternal: '$600.000 COP',
     tools: ['Figma', 'Unity', 'Prototipado XR'],
     audience: 'Diseñadores, desarrolladores y creativos interesados en experiencias inmersivas',
-    category: 'xr',
+    category: 'vr',
     image: '/lovable-uploads/b480e4bf-df68-476f-816e-1228a5b23559.png',
     hasDetailPage: true
   },
@@ -34,7 +34,7 @@ export const xrCourses: Course[] = [
     priceExternal: '$600.000 COP',
     tools: ['Unity', 'Figma', 'Blender'],
     audience: 'Arquitectos, diseñadores de espacios y desarrolladores XR',
-    category: 'xr',
+    category: 'vr',
     image: '/lovable-uploads/279c4498-2e42-43a7-8bdf-3bd31e431eb0.png',
     hasDetailPage: true
   }
