@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { FileText, Book, Youtube, Folder } from 'lucide-react';
+import { FileText, Book, Youtube, Folder, ExternalLink } from 'lucide-react';
 
 const FreeResources = () => {
   const resources = [
@@ -8,25 +7,15 @@ const FreeResources = () => {
       title: 'Manuales PDF',
       description: 'Guías completas y recursos descargables',
       icon: FileText,
-      color: 'primary-purple'
+      color: 'primary-purple',
+      href: 'https://drive.google.com/drive/folders/1mXSzmg0BtJszukDS9tw5Nn-2GoQH_mRh?usp=sharing' // ← CAMBIA ESTE ENLACE
     },
     {
       title: 'Guías para elegir tu curso ideal',
       description: 'Te ayudamos a encontrar el mejor camino',
       icon: Book,
-      color: 'primary-blue'
-    },
-    {
-      title: 'Acceso a clases abiertas',
-      description: 'Prueba nuestros cursos antes de inscribirte',
-      icon: Youtube,
-      color: 'accent-purple'
-    },
-    {
-      title: 'Plantillas de trabajo',
-      description: 'Figma, Unity, Blender y más herramientas',
-      icon: Folder,
-      color: 'accent-blue'
+      color: 'primary-blue',
+      href: 'https://tally.so/r/mON5B7' // ← CAMBIA ESTE ENLACE
     }
   ];
 
@@ -48,7 +37,7 @@ const FreeResources = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 gap-6 justify-items-center max-w-2xl mx-auto">
           {resources.map((resource, index) => {
             const IconComponent = resource.icon;
             return (
@@ -71,13 +60,16 @@ const FreeResources = () => {
                   {resource.description}
                 </p>
 
-                {/* Download Button */}
-                <button className="w-full bg-subtle-gradient text-white py-3 px-4 rounded-lg font-semibold text-sm hover:shadow-lg hover:shadow-primary-purple/50 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-                  </svg>
-                  Descargar
-                </button>
+                {/* Download Button with href */}
+                <a
+                  href={resource.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full bg-subtle-gradient text-white py-3 px-4 rounded-lg font-semibold text-sm hover:shadow-lg hover:shadow-primary-purple/50 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 no-underline"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  Ver más
+                </a>
               </div>
             );
           })}
