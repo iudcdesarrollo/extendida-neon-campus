@@ -22,43 +22,68 @@ export interface CourseDetailData {
 }
 
 export const twineeCourseData: CourseDetailData = {
-  id: 2,
+  id: 3,
   title: 'Creación de Guiones Interactivos con Twine e Ink',
-  duration: '20 horas',
-  priceStudent: '$300.000 COP',
-  priceExternal: '$400.000 COP',
-  modality: 'Presencial',
-  schedule: 'Viernes de 2:00 p.m. a 6:00 p.m.',
-  sessions: '5 sesiones de 4 horas',
-  tools: ['Twine', 'Ink (open source)'],
-  audience: 'Narradores, guionistas y diseñadores interesados en storytelling interactivo',
+  duration: '40 horas',
+  priceStudent: '$450.000 COP',
+  priceExternal: '$650.000 COP',
+  modality: 'Presencial (opcional virtual de 6:00 p.m. a 8:00 p.m. con mínimo 10 inscritos)',
+  schedule: 'Viernes y Miércoles de 2:00 p.m. a 6:00 p.m.',
+  sessions: '10 sesiones de 4 horas',
+  tools: ['Twine', 'Ink'],
+  audience: 'Narradores, guionistas, diseñadores de videojuegos, docentes, y creativos interesados en storytelling interactivo',
   image: '/lovable-uploads/bcb5d844-5074-4efa-b0af-78a4010aac2b.png',
-  description: 'Sumérgete en el arte del storytelling no lineal con este curso práctico, ideal para quienes buscan dar vida a narrativas dinámicas. Aprenderás a estructurar y escribir guiones interactivos que son esenciales para videojuegos, aplicaciones educativas y experiencias inmersivas. A través de talleres prácticos, los participantes explorarán las herramientas Twine e Ink, desarrollando la capacidad de crear historias ramificadas que respondan a las decisiones del usuario, fomentando la participación activa y la inmersión del público.',
+  description: 'Sumérgete en el arte del storytelling no lineal con este curso práctico, ideal para quienes buscan dar vida a narrativas dinámicas. Aprenderás a estructurar y escribir guiones interactivos esenciales para videojuegos, aplicaciones educativas y experiencias inmersivas. A través de talleres y ejercicios guiados, los participantes explorarán herramientas como Twine e Ink para crear historias ramificadas que respondan a las decisiones del usuario, fomentando la participación activa y la inmersión narrativa.',
   sessions_content: [
     {
       number: 1,
       title: 'Introducción al Storytelling Interactivo',
-      content: 'Conceptos de narrativa no lineal, arcos de personaje interactivos, tipos de decisiones y consecuencias.'
+      content: 'Narrativa no lineal, estructuras ramificadas, decisiones y consecuencias.'
     },
     {
       number: 2,
-      title: 'Fundamentos de Twine',
-      content: 'Interfaz, creación de pasajes, enlaces, variables y condicionales en Twine.'
+      title: 'Diseño de Personajes Interactivos',
+      content: 'Construcción de personajes con agencia, arcos dinámicos y personalidad reactiva.'
     },
     {
       number: 3,
-      title: 'Diseño de Ramificaciones y Múltiples Finales',
-      content: 'Estrategias para diseñar narrativas con múltiples caminos y desenlaces.'
+      title: 'Fundamentos de Twine (I)',
+      content: 'Interfaz, creación de pasajes, enlaces, lógica simple.'
     },
     {
       number: 4,
-      title: 'Introducción a Ink y su Integración',
-      content: 'Sintaxis básica de Ink, creación de nudos y flujos narrativos complejos.'
+      title: 'Fundamentos de Twine (II)',
+      content: 'Variables, condicionales, estilos visuales y exportación.'
     },
     {
       number: 5,
-      title: 'Proyecto Final y Publicación',
-      content: 'Desarrollo de un guion interactivo completo, exportación y consideraciones para la publicación.'
+      title: 'Diseño de Estructuras Narrativas Complejas',
+      content: 'Mapas de flujo, esquemas de interacción, ritmo.'
+    },
+    {
+      number: 6,
+      title: 'Introducción a Ink (I)',
+      content: 'Sintaxis básica, nudos, ramificaciones.'
+    },
+    {
+      number: 7,
+      title: 'Ink (II) + Integración avanzada',
+      content: 'Elecciones anidadas, condiciones, estructura de proyectos largos.'
+    },
+    {
+      number: 8,
+      title: 'Adaptación de Guiones a Plataformas Interactivas',
+      content: 'Uso en videojuegos, apps, publicaciones digitales.'
+    },
+    {
+      number: 9,
+      title: 'Desarrollo del Proyecto Final',
+      content: 'Escritura y montaje de una narrativa interactiva original.'
+    },
+    {
+      number: 10,
+      title: 'Presentación y Retroalimentación',
+      content: 'Lectura cruzada, pruebas de jugabilidad, exportación y cierre.'
     }
   ]
 };
