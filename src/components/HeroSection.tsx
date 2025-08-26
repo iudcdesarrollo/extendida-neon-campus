@@ -35,11 +35,14 @@ const HeroSection = () => {
                 Explora los cursos
               </Link>
               
-              <button className="border-2 border-primary-blue text-primary-blue px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-blue hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2">
+              <button 
+                onClick={() => window.open('https://tally.so/r/mON5B7', '_blank')}
+                className="border-2 border-primary-blue text-primary-blue px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-blue hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
+              >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8 5v14l11-7z"/>
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                 </svg>
-                Ver demo de clase
+                Escoge el mejor curso para ti
               </button>
             </div>
           </div>
