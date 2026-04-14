@@ -29,7 +29,7 @@ const FreeResources = () => {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-orbitron font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-sora font-bold text-white mb-6">
             Recursos Gratuitos para{' '}
             <span className="bg-subtle-gradient bg-clip-text text-transparent">
               Crear Más y Mejor
@@ -51,12 +51,12 @@ const FreeResources = () => {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-xl font-orbitron font-bold text-white mb-3 group-hover:text-primary-purple transition-colors">
+                <h3 className="text-xl font-sora font-bold text-white mb-3 group-hover:text-primary-purple transition-colors">
                   {resource.title}
                 </h3>
 
                 {/* Description */}
-                <p className="text-gray-300 font-space text-sm mb-6 leading-relaxed flex-grow">
+                <p className="text-gray-300 font-inter text-sm mb-6 leading-relaxed flex-grow">
                   {resource.description}
                 </p>
 

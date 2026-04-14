@@ -97,5 +97,17 @@ export const designCourses: Course[] = [
     category: 'diseno',
     image: '/lovable-uploads/d73c226b-2023-4952-aa14-4719ae95fa60.png',
     hasDetailPage: true
+  },
+  {
+    id: 22,
+    title: 'Animación 2D Profesional con Toon Boom Harmony',
+    duration: '40 horas',
+    priceStudent: '$400.000 COP',
+    priceExternal: '$600.000 COP',
+    tools: ['Toon Boom Harmony Essentials'],
+    audience: 'Animadores independientes, diseñadores, estudiantes activos IUDC y egresados en proceso de empleabilidad en el sector audiovisual bogotano',
+    category: 'diseno',
+    image: '/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
+    hasDetailPage: true
   }
 ];

@@ -25,10 +25,10 @@ const CoursesGrid: React.FC<CoursesGridProps> = ({ filteredCourses }) => {
     return (
       <div className="text-center py-16">
         <Search className="w-16 h-16 text-white mx-auto mb-4" />
-        <h3 className="text-2xl font-orbitron font-bold text-white mb-4">
+        <h3 className="text-2xl font-sora font-bold text-white mb-4">
           No encontramos cursos que coincidan
         </h3>
-        <p className="text-white font-space">
+        <p className="text-white font-inter">
           Intenta con otros términos de búsqueda o selecciona una categoría diferente.
         </p>
       </div>
@@ -38,7 +38,7 @@ const CoursesGrid: React.FC<CoursesGridProps> = ({ filteredCourses }) => {
   return (
     <>
       {/* Results Count */}
-      <p className="text-white mb-8 font-space">
+      <p className="text-white mb-8 font-inter">
         Mostrando {filteredCourses.length} curso{filteredCourses.length !== 1 ? 's' : ''}
       </p>
 

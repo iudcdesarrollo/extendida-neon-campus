@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Clock, Users, Calendar, MapPin, ArrowLeft } from 'lucide-react';
 
 interface CourseData {
@@ -28,8 +28,8 @@ const CourseHero: React.FC<CourseHeroProps> = ({ courseData }) => {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Back Button */}
-        <Link 
-          to="/cursos" 
+        <Link
+          href="/cursos"
           className="inline-flex items-center text-white hover:text-primary-purple transition-colors mb-8 group"
         >
           <ArrowLeft className="w-5 h-5 mr-2 group-hover:-translate-x-1 transition-transform" />
@@ -38,39 +38,39 @@ const CourseHero: React.FC<CourseHeroProps> = ({ courseData }) => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-4xl md:text-5xl font-orbitron font-bold text-white mb-6">
+            <h1 className="text-4xl md:text-5xl font-sora font-bold text-white mb-6">
               {courseData.title}
             </h1>
-            
+
             <div className="grid grid-cols-2 gap-4 mb-6">
               <div className="flex items-center text-white">
                 <Clock className="w-5 h-5 mr-2 text-primary-purple" />
-                <span className="font-space">{courseData.duration}</span>
+                <span className="font-inter">{courseData.duration}</span>
               </div>
               <div className="flex items-center text-white">
                 <MapPin className="w-5 h-5 mr-2 text-primary-purple" />
-                <span className="font-space">{courseData.modality}</span>
+                <span className="font-inter">{courseData.modality}</span>
               </div>
               <div className="flex items-center text-white">
                 <Calendar className="w-5 h-5 mr-2 text-primary-purple" />
-                <span className="font-space text-sm">{courseData.schedule}</span>
+                <span className="font-inter text-sm">{courseData.schedule}</span>
               </div>
               <div className="flex items-center text-white">
                 <Users className="w-5 h-5 mr-2 text-primary-purple" />
-                <span className="font-space text-sm">{courseData.sessions}</span>
+                <span className="font-inter text-sm">{courseData.sessions}</span>
               </div>
             </div>
 
             <div className="mb-6">
-              <p className="text-primary-purple font-space font-semibold mb-2">Precios:</p>
-              <p className="text-white font-space">Estudiantes IUDC: <span className="text-accent-blue font-bold">{courseData.priceStudent}</span></p>
-              <p className="text-white font-space">Externos: <span className="text-accent-blue font-bold">{courseData.priceExternal}</span></p>
+              <p className="text-primary-purple font-inter font-semibold mb-2">Precios:</p>
+              <p className="text-white font-inter">Estudiantes IUDC: <span className="text-accent-blue font-bold">{courseData.priceStudent}</span></p>
+              <p className="text-white font-inter">Externos: <span className="text-accent-blue font-bold">{courseData.priceExternal}</span></p>
             </div>
           </div>
 
           <div className="relative">
-            <img 
-              src={courseData.image} 
+            <img
+              src={courseData.image}
               alt={courseData.title}
               className="w-full h-80 object-cover rounded-2xl border border-primary-purple/20"
             />

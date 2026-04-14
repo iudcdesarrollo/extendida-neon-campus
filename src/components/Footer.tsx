@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const Footer = () => {
   const socialLinks = [
@@ -46,25 +46,25 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center mb-6">
+            <Link href="/" className="flex items-center mb-6">
               <div className="w-66 h-42 flex items-center justify-center">
-                <img 
-                  src="/lovable-uploads/c9705e28-40cf-4465-90c8-7ff83c94f94d.png" 
-                  alt="Aula Extendida Logo" 
+                <img
+                  src="/lovable-uploads/c9705e28-40cf-4465-90c8-7ff83c94f94d.png"
+                  alt="Aula Extendida Logo"
                   className="w-66 h-42 object-contain"
                 />
               </div>
             </Link>
-            
-            <p className="text-gray-300 font-space leading-relaxed mb-6 max-w-md">
-              Formamos líderes creativos preparados para afrontar el presente y futuro tecnológico 
+
+            <p className="text-gray-300 font-inter leading-relaxed mb-6 max-w-md">
+              Formamos líderes creativos preparados para afrontar el presente y futuro tecnológico
               con cursos prácticos en las tecnologías más demandadas.
             </p>
 
             {/* Newsletter */}
             <div className="flex flex-col sm:flex-row gap-2 max-w-md">
-              <input 
-                type="email" 
+              <input
+                type="email"
                 placeholder="Tu email para novedades"
                 className="flex-1 bg-black/50 border border-primary-purple/30 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-primary-purple"
               />
@@ -76,18 +76,18 @@ const Footer = () => {
 
           {/* Navigation */}
           <div>
-            <h3 className="font-orbitron font-bold text-white text-lg mb-6">Navegación</h3>
+            <h3 className="font-sora font-bold text-white text-lg mb-6">Navegación</h3>
             <div className="space-y-3">
-              <Link to="/" className="block text-gray-300 hover:text-primary-purple transition-colors">
+              <Link href="/" className="block text-gray-300 hover:text-primary-purple transition-colors">
                 Home
               </Link>
-              <Link to="/cursos" className="block text-gray-300 hover:text-primary-purple transition-colors">
+              <Link href="/cursos" className="block text-gray-300 hover:text-primary-purple transition-colors">
                 Cursos
               </Link>
-              <Link to="/quienes-somos" className="block text-gray-300 hover:text-primary-purple transition-colors">
+              <Link href="/quienes-somos" className="block text-gray-300 hover:text-primary-purple transition-colors">
                 Quiénes Somos
               </Link>
-              <Link to="/contacto" className="block text-gray-300 hover:text-primary-purple transition-colors">
+              <Link href="/contacto" className="block text-gray-300 hover:text-primary-purple transition-colors">
                 Contacto
               </Link>
             </div>
@@ -95,7 +95,7 @@ const Footer = () => {
 
           {/* Social Media */}
           <div>
-            <h3 className="font-orbitron font-bold text-white text-lg mb-6">Síguenos</h3>
+            <h3 className="font-sora font-bold text-white text-lg mb-6">Síguenos</h3>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
                 <a
@@ -108,12 +108,11 @@ const Footer = () => {
                 </a>
               ))}
             </div>
-            
-            {/* Logo debajo de redes sociales */}
+
             <div className="mt-6 flex justify-center">
-              <img 
-                src="/lovable-uploads/41d3f0cf-4b86-4b4b-b86d-93cdad9ee711.png" 
-                alt="Logo" 
+              <img
+                src="/lovable-uploads/41d3f0cf-4b86-4b4b-b86d-93cdad9ee711.png"
+                alt="Logo"
                 className="h-14 w-auto object-contain"
               />
             </div>
@@ -122,8 +121,8 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="border-t border-primary-purple/20 mt-12 pt-8 text-center">
-          <p className="text-gray-400 font-space">
-            © 2024 Aula Extendida. Todos los derechos reservados. 
+          <p className="text-gray-400 font-inter">
+            © 2024 Aula Extendida. Todos los derechos reservados.
             <span className="block sm:inline sm:ml-2 mt-2 sm:mt-0">
               Creando el futuro de la educación tecnológica.
             </span>

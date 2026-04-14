@@ -1,3 +1,4 @@
+'use client';
 
 import React, { useState } from 'react';
 
@@ -31,7 +32,7 @@ const FAQ = () => {
     <section className="py-20 bg-dark-bg relative">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-orbitron font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-sora font-bold text-white mb-6">
             Preguntas{' '}
             <span className="bg-subtle-gradient bg-clip-text text-transparent">
               Frecuentes
@@ -49,7 +50,7 @@ const FAQ = () => {
                 onClick={() => toggleFAQ(index)}
                 className="w-full text-left p-6 flex justify-between items-center hover:bg-primary-purple/5 transition-colors"
               >
-                <span className="font-orbitron font-bold text-white text-lg pr-4">
+                <span className="font-sora font-bold text-white text-lg pr-4">
                   {faq.question}
                 </span>
                 <svg
@@ -67,7 +68,7 @@ const FAQ = () => {
               {openIndex === index && (
                 <div className="px-6 pb-6">
                   <div className="h-px bg-subtle-gradient mb-4"></div>
-                  <p className="text-gray-300 font-space leading-relaxed">
+                  <p className="text-gray-300 font-inter leading-relaxed">
                     {faq.answer}
                   </p>
                 </div>

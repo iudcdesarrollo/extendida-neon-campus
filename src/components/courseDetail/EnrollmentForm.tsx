@@ -1,3 +1,4 @@
+'use client';
 
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
@@ -41,7 +42,7 @@ const EnrollmentForm = () => {
   return (
     <Card className="bg-black/80 border-primary-purple/30 sticky top-24">
       <CardHeader>
-        <CardTitle className="text-2xl font-orbitron font-bold bg-subtle-gradient bg-clip-text text-transparent">
+        <CardTitle className="text-2xl font-sora font-bold bg-subtle-gradient bg-clip-text text-transparent">
           Inscríbete Ahora
         </CardTitle>
       </CardHeader>

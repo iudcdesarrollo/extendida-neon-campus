@@ -4,10 +4,8 @@ import type { Config } from "tailwindcss";
 export default {
 	darkMode: ["class"],
 	content: [
-		"./pages/**/*.{ts,tsx}",
-		"./components/**/*.{ts,tsx}",
-		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+		"./app/**/*.{ts,tsx}",
 	],
 	prefix: "",
 	theme: {
@@ -120,6 +118,8 @@ export default {
 			fontFamily: {
 				'orbitron': ['Orbitron', 'sans-serif'],
 				'space': ['Space Grotesk', 'sans-serif'],
+				'sora': ['Sora', 'sans-serif'],
+				'inter': ['Inter', 'sans-serif'],
 			},
 			backgroundImage: {
 				'tech-gradient': 'linear-gradient(135deg, #0c0f1a 0%, #1a0f2e 50%, #0c0f1a 100%)',

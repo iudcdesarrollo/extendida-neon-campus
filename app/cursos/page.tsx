@@ -1,15 +1,14 @@
+'use client';
 
 import React, { useState } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import WhatsAppButton from '../components/WhatsAppButton';
-import CourseFilters from '../components/courses/CourseFilters';
-import CoursesGrid from '../components/courses/CoursesGrid';
-import { courses, categories } from '../data/coursesData';
-import useScrollToTop from '../hooks/useScrollToTop';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import WhatsAppButton from '@/components/WhatsAppButton';
+import CourseFilters from '@/components/courses/CourseFilters';
+import CoursesGrid from '@/components/courses/CoursesGrid';
+import { courses, categories } from '@/data/coursesData';
 
-const Cursos = () => {
-  useScrollToTop();
+export default function CursosPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('todos');
 
@@ -23,7 +22,7 @@ const Cursos = () => {
   return (
     <div className="min-h-screen bg-dark-bg">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="pt-20 pb-16 bg-tech-gradient relative overflow-hidden">
         <div className="absolute inset-0">
@@ -32,13 +31,13 @@ const Cursos = () => {
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-6xl font-orbitron font-bold text-white mb-6">
+          <h1 className="text-4xl md:text-6xl font-sora font-bold text-white mb-6">
             Descubre Nuestros{' '}
             <span className="bg-subtle-gradient bg-clip-text text-transparent">
               Cursos
             </span>
           </h1>
-          <p className="text-xl text-gray-300 font-space max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 font-inter max-w-3xl mx-auto">
             Aprende a crear, modelar, diseñar e innovar desde cero con tecnologías que están revolucionando el mundo digital.
           </p>
         </div>
@@ -63,6 +62,4 @@ const Cursos = () => {
       <WhatsAppButton />
     </div>
   );
-};
-
-export default Cursos;
+}

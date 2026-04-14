@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Clock, Users } from 'lucide-react';
 
 interface Course {
@@ -25,8 +25,8 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
     <div className="group bg-black/60 rounded-2xl border border-primary-purple/20 hover:border-primary-purple/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary-purple/20 hover:-translate-y-2 overflow-hidden">
       {/* Course Image */}
       <div className="relative h-48 overflow-hidden">
-        <img 
-          src={course.image} 
+        <img
+          src={course.image}
           alt={course.title}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
         />
@@ -35,13 +35,13 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
 
       <div className="p-6">
         {/* Course Title */}
-        <h3 className="text-xl font-orbitron font-bold text-white mb-3 group-hover:text-primary-purple transition-colors line-clamp-2">
+        <h3 className="text-xl font-sora font-bold text-white mb-3 group-hover:text-primary-purple transition-colors line-clamp-2">
           {course.title}
         </h3>
 
         {/* Duration and Price */}
         <div className="flex justify-between items-center mb-4">
-          <span className="text-white font-space font-semibold flex items-center gap-1">
+          <span className="text-white font-inter font-semibold flex items-center gap-1">
             <Clock className="w-4 h-4 text-white" />
             {course.duration}
           </span>
@@ -49,10 +49,10 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
 
         {/* Prices */}
         <div className="mb-4 space-y-1">
-          <p className="text-white font-space font-semibold">
+          <p className="text-white font-inter font-semibold">
             Estudiantes IUDC: {course.priceStudent}
           </p>
-          <p className="text-white font-space">
+          <p className="text-white font-inter">
             Externos: {course.priceExternal}
           </p>
         </div>
@@ -70,15 +70,15 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
         </div>
 
         {/* Audience */}
-        <p className="text-white font-space text-sm mb-6 leading-relaxed line-clamp-2">
+        <p className="text-white font-inter text-sm mb-6 leading-relaxed line-clamp-2">
           <Users className="inline w-4 h-4 text-white mr-2" />
           {course.audience}
         </p>
 
         {/* CTA Button */}
         {course.hasDetailPage ? (
-          <Link 
-            to={`/curso/${course.id}`}
+          <Link
+            href={`/curso/${course.id}`}
             className="block w-full bg-subtle-gradient text-white py-3 px-4 rounded-lg font-semibold hover:shadow-lg hover:shadow-primary-purple/50 transition-all duration-300 transform hover:scale-105 text-center"
           >
             Ver más detalles

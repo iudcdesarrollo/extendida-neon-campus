@@ -31,7 +31,7 @@ const WhyChooseUs = () => {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-orbitron font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-sora font-bold text-white mb-6">
             Aprende como lo hacen los{' '}
             <span className="bg-subtle-gradient bg-clip-text text-transparent">
               profesionales
@@ -51,11 +51,11 @@ const WhyChooseUs = () => {
                   <IconComponent className="w-16 h-16 text-white" />
                 </div>
                 
-                <h3 className="text-2xl font-orbitron font-bold text-white mb-4 group-hover:text-primary-purple transition-colors">
+                <h3 className="text-2xl font-sora font-bold text-white mb-4 group-hover:text-primary-purple transition-colors">
                   {feature.title}
                 </h3>
                 
-                <p className="text-gray-300 font-space leading-relaxed">
+                <p className="text-gray-300 font-inter leading-relaxed">
                   {feature.description}
                 </p>
 

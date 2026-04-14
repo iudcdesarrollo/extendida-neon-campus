@@ -1,10 +1,13 @@
 
+'use client';
+
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const location = useLocation();
+  const pathname = usePathname();
 
   const navItems = [
     { name: 'Home', path: '/' },
@@ -13,18 +16,18 @@ const Navbar = () => {
     { name: 'Contacto', path: '/contacto' },
   ];
 
-  const isActive = (path: string) => location.pathname === path;
+  const isActive = (path: string) => pathname === path;
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-black/85 backdrop-blur-md border-b border-primary-purple/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          <Link href="/" className="flex items-center">
             <div className="w-22 h-12 flex items-center justify-center">
-              <img 
-                src="/lovable-uploads/8b1e7650-cdc7-488e-92e9-bbdef0ef8af6.png" 
-                alt="Aula Extendida Logo" 
+              <img
+                src="/lovable-uploads/8b1e7650-cdc7-488e-92e9-bbdef0ef8af6.png"
+                alt="Aula Extendida Logo"
                 className="w-22 h-12 object-contain"
               />
             </div>
@@ -35,7 +38,7 @@ const Navbar = () => {
             {navItems.map((item) => (
               <Link
                 key={item.name}
-                to={item.path}
+                href={item.path}
                 className={`relative text-white hover:text-primary-purple transition-colors duration-300 ${
                   isActive(item.path) ? 'text-primary-purple' : ''
                 }`}
@@ -46,8 +49,8 @@ const Navbar = () => {
                 }`}></span>
               </Link>
             ))}
-            
-            <button 
+
+            <button
               onClick={() => {
                 const phoneNumber = '573107823744';
                 const message = 'Hola! Me interesa inscribirme en un curso de Aula Extendida';
@@ -84,7 +87,7 @@ const Navbar = () => {
               {navItems.map((item) => (
                 <Link
                   key={item.name}
-                  to={item.path}
+                  href={item.path}
                   className={`block px-3 py-2 text-white hover:text-primary-purple transition-colors ${
                     isActive(item.path) ? 'text-primary-purple bg-primary-purple/10' : ''
                   }`}
@@ -93,7 +96,7 @@ const Navbar = () => {
                   {item.name}
                 </Link>
               ))}
-              <button 
+              <button
                 onClick={() => {
                   const phoneNumber = '573107823744';
                   const message = 'Hola! Me interesa inscribirme en un curso de Aula Extendida';
