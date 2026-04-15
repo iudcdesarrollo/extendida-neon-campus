@@ -7,7 +7,7 @@ export const iluminacionCourseData = {
   modality: 'Presencial',
   schedule: 'Martes y Jueves de 2:00 p.m. a 6:00 p.m.',
   sessions: '7.5 sesiones de 4 horas',
-  image: '/lovable-uploads/89eef61a-9d23-4525-8bcd-7a24b277b28a.png',
+  image: '/extendida-neon-campus/lovable-uploads/89eef61a-9d23-4525-8bcd-7a24b277b28a.png',
   description: 'Domina el arte de la iluminación digital, una habilidad crucial para realzar la estética y la narrativa en cine, videojuegos y experiencias XR. Este curso avanzado profundiza en la aplicación de conceptos de iluminación, integrando la teoría del color y la estética visual para crear atmósferas inmersivas y emotivas. Los participantes trabajarán con herramientas líderes de la industria para explorar técnicas como la iluminación global, la iluminación volumétrica y la optimización del rendimiento lumínico en tiempo real.',
   tools: ['Blender', 'Unreal Engine'],
   audience: 'Artistas visuales, animadores y técnicos en producción digital',

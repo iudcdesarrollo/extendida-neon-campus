@@ -11,7 +11,7 @@ export const threeDCourses: Course[] = [
     tools: ['Blender', 'Fusion 360', 'Tinkercad', 'Cura', 'PrusaSlicer'],
     audience: 'Estudiantes de diseño de moda, diseñadores industriales, joyeros contemporáneos, artistas visuales',
     category: '3d',
-    image: '/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
+    image: '/extendida-neon-campus/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
     hasDetailPage: true
   },
   {
@@ -23,7 +23,7 @@ export const threeDCourses: Course[] = [
     tools: ['Blender', 'Krita', 'MakeHuman'],
     audience: 'Estudiantes y profesionales interesados en el diseño de personajes 3D para medios digitales',
     category: '3d',
-    image: '/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
+    image: '/extendida-neon-campus/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
     hasDetailPage: true
   },
   {
@@ -35,7 +35,7 @@ export const threeDCourses: Course[] = [
     tools: ['Blender', 'Unreal Engine'],
     audience: 'Artistas visuales, animadores, diseñadores 3D y técnicos en producción digital',
     category: '3d',
-    image: '/lovable-uploads/89eef61a-9d23-4525-8bcd-7a24b277b28a.png',
+    image: '/extendida-neon-campus/lovable-uploads/89eef61a-9d23-4525-8bcd-7a24b277b28a.png',
     hasDetailPage: true
   },
   {
@@ -47,7 +47,7 @@ export const threeDCourses: Course[] = [
     tools: ['Blender', 'Unreal Engine', 'Figma'],
     audience: 'Estudiantes y profesionales de arquitectura, diseño de espacios, museografía, producción escénica',
     category: '3d',
-    image: '/lovable-uploads/b17f73e3-c77a-46b7-b766-d984499efa82.png',
+    image: '/extendida-neon-campus/lovable-uploads/b17f73e3-c77a-46b7-b766-d984499efa82.png',
     hasDetailPage: true
   },
   {
@@ -59,7 +59,7 @@ export const threeDCourses: Course[] = [
     tools: ['Blender', 'Unreal Engine'],
     audience: 'Profesionales y estudiantes en arquitectura, diseño interior, urbanismo y visualización 3D',
     category: '3d',
-    image: '/lovable-uploads/e5c79d4f-6db1-4777-b8b2-0fa686e73de8.png',
+    image: '/extendida-neon-campus/lovable-uploads/e5c79d4f-6db1-4777-b8b2-0fa686e73de8.png',
     hasDetailPage: true
   },
   {
@@ -71,7 +71,7 @@ export const threeDCourses: Course[] = [
     tools: ['Blender', 'ZBrushCoreMini', 'Sketchfab'],
     audience: 'Estudiantes de veterinaria y biología, ilustradores científicos, docentes, investigadores',
     category: '3d',
-    image: '/lovable-uploads/a3f59a77-68f8-480f-ac3f-19dd7343ae7d.png',
+    image: '/extendida-neon-campus/lovable-uploads/a3f59a77-68f8-480f-ac3f-19dd7343ae7d.png',
     hasDetailPage: true
   }
 ];

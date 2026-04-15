@@ -7,7 +7,7 @@ export const modelado3DAnimalesCourseData = {
   modality: 'Presencial',
   schedule: 'Sábados de 8:00 a.m. a 12:00 m.',
   sessions: '7.5 sesiones de 4 horas',
-  image: '/lovable-uploads/a3f59a77-68f8-480f-ac3f-19dd7343ae7d.png',
+  image: '/extendida-neon-campus/lovable-uploads/a3f59a77-68f8-480f-ac3f-19dd7343ae7d.png',
   description: 'Este curso ofrece una introducción especializada al modelado 3D aplicado a la representación anatómica animal para fines educativos y de simulación. Los participantes aprenderán técnicas de escultura digital para construir modelos anatómicamente correctos de animales domésticos y silvestres, útiles en entornos de realidad aumentada y realidad virtual con propósitos formativos en medicina veterinaria, biología y educación ambiental.',
   tools: ['Blender', 'Substance Painter', 'Sketchfab'],
   audience: 'Estudiantes de medicina veterinaria, biología, animación científica y docentes.',

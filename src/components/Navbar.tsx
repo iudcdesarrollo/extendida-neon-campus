@@ -26,7 +26,7 @@ const Navbar = () => {
           <Link href="/" className="flex items-center">
             <div className="w-22 h-12 flex items-center justify-center">
               <img
-                src="/lovable-uploads/8b1e7650-cdc7-488e-92e9-bbdef0ef8af6.png"
+                src="/extendida-neon-campus/lovable-uploads/8b1e7650-cdc7-488e-92e9-bbdef0ef8af6.png"
                 alt="Aula Extendida Logo"
                 className="w-22 h-12 object-contain"
               />

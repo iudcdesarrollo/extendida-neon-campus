@@ -32,7 +32,7 @@ export const twineeCourseData: CourseDetailData = {
   sessions: '10 sesiones de 4 horas',
   tools: ['Twine', 'Ink'],
   audience: 'Narradores, guionistas, diseñadores de videojuegos, docentes, y creativos interesados en storytelling interactivo',
-  image: '/lovable-uploads/bcb5d844-5074-4efa-b0af-78a4010aac2b.png',
+  image: '/extendida-neon-campus/lovable-uploads/bcb5d844-5074-4efa-b0af-78a4010aac2b.png',
   description: 'Sumérgete en el arte del storytelling no lineal con este curso práctico, ideal para quienes buscan dar vida a narrativas dinámicas. Aprenderás a estructurar y escribir guiones interactivos esenciales para videojuegos, aplicaciones educativas y experiencias inmersivas. A través de talleres y ejercicios guiados, los participantes explorarán herramientas como Twine e Ink para crear historias ramificadas que respondan a las decisiones del usuario, fomentando la participación activa y la inmersión narrativa.',
   sessions_content: [
     {

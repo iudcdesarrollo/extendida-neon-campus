@@ -11,7 +11,7 @@ export const aiCourses: Course[] = [
     tools: ['Blender', 'RenderMan', 'Herramientas IA de denoise', 'upscaling y automatización'],
     audience: 'Animadores, artistas 3D, técnicos en VFX y profesionales interesados en IA aplicada a flujos de renderizado',
     category: 'ia',
-    image: '/lovable-uploads/30a4951f-b879-4be0-8179-5bb9f4ef3569.png',
+    image: '/extendida-neon-campus/lovable-uploads/30a4951f-b879-4be0-8179-5bb9f4ef3569.png',
     hasDetailPage: true
   },
   {
@@ -23,7 +23,7 @@ export const aiCourses: Course[] = [
     tools: ['Runway ML', 'ChatGPT', 'Descript', 'Pictory AI', 'Canva'],
     audience: 'Comunicadores, estudiantes de medios digitales, creadores de contenido y profesionales en narrativa audiovisual',
     category: 'ia',
-    image: '/lovable-uploads/1f77ba4b-0952-423a-b6ed-bf67746eb458.png',
+    image: '/extendida-neon-campus/lovable-uploads/1f77ba4b-0952-423a-b6ed-bf67746eb458.png',
     hasDetailPage: true
   },
   {
@@ -35,7 +35,7 @@ export const aiCourses: Course[] = [
     tools: ['Google Sheets', 'ChatGPT', 'Tableau Public', 'Power BI', 'Notion AI', 'Canva'],
     audience: 'Estudiantes de administración, emprendedores, tomadores de decisiones, gestores de proyectos',
     category: 'ia',
-    image: '/lovable-uploads/d73c226b-2023-4952-aa14-4719ae95fa60.png',
+    image: '/extendida-neon-campus/lovable-uploads/d73c226b-2023-4952-aa14-4719ae95fa60.png',
     hasDetailPage: true
   },
   {
@@ -47,7 +47,7 @@ export const aiCourses: Course[] = [
     tools: ['ChatGPT', 'Canva', 'Notion AI', 'Miro', 'Business Model Canvas', 'ValidatorAI'],
     audience: 'Emprendedores, estudiantes de negocios, innovadores sociales, startups en fase de ideación',
     category: 'ia',
-    image: '/lovable-uploads/1f77ba4b-0952-423a-b6ed-bf67746eb458.png',
+    image: '/extendida-neon-campus/lovable-uploads/1f77ba4b-0952-423a-b6ed-bf67746eb458.png',
     hasDetailPage: true
   }
 ];

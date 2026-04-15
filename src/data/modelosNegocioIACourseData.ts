@@ -6,7 +6,7 @@ export const modelosNegocioIACourseData = {
   modality: 'Presencial',
   schedule: 'Lunes y Miércoles de 2:00 p.m. a 6:00 p.m.',
   sessions: '10 sesiones de 4 horas',
-  image: '/lovable-uploads/1f77ba4b-0952-423a-b6ed-bf67746eb458.png',
+  image: '/extendida-neon-campus/lovable-uploads/1f77ba4b-0952-423a-b6ed-bf67746eb458.png',
   description: 'Diseña, valida y comunica modelos de negocio innovadores con ayuda de herramientas de inteligencia artificial. Utilizando metodologías ágiles como Lean Startup y Design Thinking potenciadas por IA, aprenderás a detectar oportunidades, entender a tus clientes y crear propuestas de valor únicas. Este curso es ideal para emprendedores, innovadores y estudiantes que quieran desarrollar un modelo de negocio sostenible con herramientas accesibles y actualizadas.',
   tools: ['ChatGPT', 'Canva', 'Notion AI', 'Miro', 'Business Model Canvas', 'ValidatorAI'],
   audience: 'Emprendedores, estudiantes de negocios, innovadores sociales, startups en fase de ideación.',

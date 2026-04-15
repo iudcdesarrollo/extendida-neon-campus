@@ -7,7 +7,7 @@ export const toonBoomHarmonyCourseData = {
   modality: 'Presencial',
   schedule: '4 semanas / 10 horas semanales',
   sessions: '4 módulos',
-  image: '/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
+  image: '/extendida-neon-campus/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
   description: 'Curso técnico especializado para formar animadores en nivel de entrada con competencias sólidas en Toon Boom Harmony, con énfasis en animación cuadro a cuadro y procesos de clean up profesional. Surge en articulación con el convenio de práctica vigente entre la IUDC y el sector audiovisual bogotano, respondiendo a la necesidad de certificación técnica en herramientas de industria como condición de entrada a roles en producciones de animación 2D profesional. Incluye licencia oficial de Toon Boom Harmony Essentials durante el mes de formación y la entrega de un portafolio de tres ejercicios finalizados como evidencia de competencia técnica.',
   tools: ['Toon Boom Harmony Essentials'],
   audience: 'Animadores independientes, diseñadores de otras instituciones, profesionales del sector creativo, estudiantes activos IUDC de los programas de Animación, Videojuegos y Diseño Gráfico, y egresados en proceso de actualización y empleabilidad.',

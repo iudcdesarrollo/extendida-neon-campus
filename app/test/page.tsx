@@ -23,7 +23,7 @@ const coursesHighlight = [
     tag: 'Nuevo',
     hours: '40h',
     description: 'Clean up profesional y animación cuadro a cuadro con la herramienta estándar de la industria.',
-    image: '/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
+    image: '/extendida-neon-campus/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const coursesHighlight = [
     tag: 'Popular',
     hours: '30h',
     description: 'Diseño y escultura digital de personajes 3D listos para videojuegos y animación.',
-    image: '/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
+    image: '/extendida-neon-campus/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
   },
   {
     id: 1,
@@ -39,7 +39,7 @@ const coursesHighlight = [
     tag: '3D',
     hours: '40h',
     description: 'Accesorios de moda modelados digitalmente para impresión 3D y prototipado rápido.',
-    image: '/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
+    image: '/extendida-neon-campus/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
   },
 ];
 
@@ -98,7 +98,7 @@ export default function TestHomePage() {
             </div>
 
             <Link href="/test" className="absolute left-1/2 -translate-x-1/2">
-              <img src="/lovable-uploads/8b1e7650-cdc7-488e-92e9-bbdef0ef8af6.png" alt="Aula Extendida" className="h-6 w-auto object-contain" />
+              <img src="/extendida-neon-campus/lovable-uploads/8b1e7650-cdc7-488e-92e9-bbdef0ef8af6.png" alt="Aula Extendida" className="h-6 w-auto object-contain" />
             </Link>
 
             <div className="hidden md:flex items-center gap-6">
@@ -402,7 +402,7 @@ export default function TestHomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-6 mb-10">
             {/* Brand */}
             <div className="col-span-2 md:col-span-1">
-              <img src="/lovable-uploads/8b1e7650-cdc7-488e-92e9-bbdef0ef8af6.png" alt="Aula Extendida" className="h-6 w-auto object-contain mb-3" />
+              <img src="/extendida-neon-campus/lovable-uploads/8b1e7650-cdc7-488e-92e9-bbdef0ef8af6.png" alt="Aula Extendida" className="h-6 w-auto object-contain mb-3" />
               <p className="text-white/40 text-xs leading-relaxed max-w-[220px]">
                 Formamos creadores digitales con cursos prácticos en animación, 3D y diseño.
               </p>

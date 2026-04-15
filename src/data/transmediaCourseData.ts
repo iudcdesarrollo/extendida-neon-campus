@@ -32,7 +32,7 @@ export const transmediaCourseData: CourseDetailData = {
   sessions: '7.5 sesiones de 4 horas',
   tools: ['Twine', 'Canva', 'Instagram', 'TikTok', 'Notion'],
   audience: 'Profesionales de la comunicación, ONGs, estudiantes de comunicación y ciencias sociales',
-  image: '/lovable-uploads/0fedadd0-d0c5-4f1f-a71a-9898e3a42523.png',
+  image: '/extendida-neon-campus/lovable-uploads/0fedadd0-d0c5-4f1f-a71a-9898e3a42523.png',
   description: 'Diseña campañas de impacto social, educativo o institucional que trasciendan las plataformas tradicionales. Este curso te enseñará a construir historias distribuidas estratégicamente en múltiples medios, movilizando audiencias y fomentando la participación activa. A través de ejercicios prácticos, los participantes aprenderán a crear narrativas transmedia que aprovechen el potencial de redes sociales, herramientas interactivas y otras plataformas digitales para generar un cambio positivo.',
   sessions_content: [
     {

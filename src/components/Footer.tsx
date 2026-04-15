@@ -49,7 +49,7 @@ const Footer = () => {
             <Link href="/" className="flex items-center mb-6">
               <div className="w-66 h-42 flex items-center justify-center">
                 <img
-                  src="/lovable-uploads/c9705e28-40cf-4465-90c8-7ff83c94f94d.png"
+                  src="/extendida-neon-campus/lovable-uploads/c9705e28-40cf-4465-90c8-7ff83c94f94d.png"
                   alt="Aula Extendida Logo"
                   className="w-66 h-42 object-contain"
                 />
@@ -111,7 +111,7 @@ const Footer = () => {
 
             <div className="mt-6 flex justify-center">
               <img
-                src="/lovable-uploads/41d3f0cf-4b86-4b4b-b86d-93cdad9ee711.png"
+                src="/extendida-neon-campus/lovable-uploads/41d3f0cf-4b86-4b4b-b86d-93cdad9ee711.png"
                 alt="Logo"
                 className="h-14 w-auto object-contain"
               />

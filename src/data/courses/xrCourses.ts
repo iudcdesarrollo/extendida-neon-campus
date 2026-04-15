@@ -11,7 +11,7 @@ export const xrCourses: Course[] = [
     tools: ['Figma', 'Unity', 'Herramientas de prototipado XR'],
     audience: 'Diseñadores, desarrolladores, artistas digitales y creativos interesados en experiencias inmersivas',
     category: 'vr',
-    image: '/lovable-uploads/b480e4bf-df68-476f-816e-1228a5b23559.png',
+    image: '/extendida-neon-campus/lovable-uploads/b480e4bf-df68-476f-816e-1228a5b23559.png',
     hasDetailPage: true
   },
   {
@@ -23,7 +23,7 @@ export const xrCourses: Course[] = [
     tools: ['Blender', 'Unity', 'Vuforia', 'Herramientas de publicación en AR'],
     audience: 'Diseñadores de moda, desarrolladores creativos, visual merchandisers, docentes y estudiantes de moda',
     category: 'xr',
-    image: '/lovable-uploads/a5ef8d56-0f74-4dfd-a37c-3017335476b3.png',
+    image: '/extendida-neon-campus/lovable-uploads/a5ef8d56-0f74-4dfd-a37c-3017335476b3.png',
     hasDetailPage: true
   },
   {
@@ -35,7 +35,7 @@ export const xrCourses: Course[] = [
     tools: ['Unity', 'Figma', 'Blender'],
     audience: 'Arquitectos, diseñadores de espacios, desarrolladores XR y entusiastas de la visualización inmersiva',
     category: 'vr',
-    image: '/lovable-uploads/279c4498-2e42-43a7-8bdf-3bd31e431eb0.png',
+    image: '/extendida-neon-campus/lovable-uploads/279c4498-2e42-43a7-8bdf-3bd31e431eb0.png',
     hasDetailPage: true
   }
 ];

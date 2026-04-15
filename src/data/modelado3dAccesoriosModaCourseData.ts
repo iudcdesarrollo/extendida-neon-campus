@@ -6,7 +6,7 @@ export const modelado3dAccesoriosModaCourseData = {
   modality: 'Presencial (opcional virtual de 6:00 p.m. a 8:00 p.m. con mínimo 10 inscritos)',
   schedule: 'Martes y Jueves de 2:00 p.m. a 6:00 p.m.',
   sessions: '10 sesiones de 4 horas',
-  image: '/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
+  image: '/extendida-neon-campus/lovable-uploads/3e10495c-49d3-4cac-ab38-75f5598ce01c.png',
   description: 'Este curso práctico y creativo enseña a diseñar y modelar accesorios de moda (joyería, calzado, hebillas, adornos textiles, etc.) con herramientas digitales para su posterior impresión 3D. Combinando principios de diseño, modelado orgánico y paramétrico, y técnicas de prototipado rápido, los participantes podrán crear colecciones personalizadas listas para materializar. Es ideal para diseñadores, emprendedores y creativos que buscan integrar la fabricación digital a sus procesos de diseño de moda. Al finalizar, cada estudiante contará con una pieza prototipada y lista para impresión, ideal para portafolios o pruebas de concepto comerciales.',
   tools: ['Blender', 'Fusion 360', 'Tinkercad', 'Cura', 'PrusaSlicer', 'Acceso a impresora 3D FDM o SLA'],
   audience: 'Estudiantes de diseño de moda, diseñadores industriales, joyeros contemporáneos, artistas visuales y cualquier persona interesada en combinar moda y tecnología.',

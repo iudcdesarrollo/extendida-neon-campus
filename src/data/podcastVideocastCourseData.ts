@@ -7,7 +7,7 @@ export const podcastVideocastCourseData = {
   modality: 'Presencial',
   schedule: 'Lunes de 2:00 p.m. a 6:00 p.m.',
   sessions: '5 sesiones de 4 horas',
-  image: '/lovable-uploads/29d69d60-ebe2-442a-9d2a-fee052080ea6.png',
+  image: '/extendida-neon-campus/lovable-uploads/29d69d60-ebe2-442a-9d2a-fee052080ea6.png',
   description: 'Aprende a crear contenidos comunicacionales cautivadores en formatos de podcast y videocast. Este curso práctico cubre todo el ciclo de producción, desde la grabación y edición, hasta la creación de una identidad sonora distintiva y estrategias efectivas de publicación y promoción. Ideal para quienes desean lanzar su propio programa o mejorar la calidad de sus producciones existentes, este taller te proporcionará las habilidades y herramientas necesarias para producir audio y video de alta calidad.',
   tools: ['OBS Studio', 'Reaper', 'DaVinci Resolve', 'Canva'],
   audience: 'Estudiantes de comunicación, periodistas, creadores de contenido y docentes',

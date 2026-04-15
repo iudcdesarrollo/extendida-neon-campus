@@ -57,7 +57,7 @@ const HeroSection = () => {
 
               <div className="relative z-10">
                 <img
-                  src="/lovable-uploads/32c8996e-c8cd-4bba-a02c-c1659526eb9f.png"
+                  src="/extendida-neon-campus/lovable-uploads/32c8996e-c8cd-4bba-a02c-c1659526eb9f.png"
                   alt="Tecnología futurista - Aula Extendida"
                   className="w-96 h-auto object-contain animate-float"
                 />

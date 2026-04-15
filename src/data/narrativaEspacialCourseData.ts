@@ -7,7 +7,7 @@ export const narrativaEspacialCourseData = {
   modality: 'Presencial',
   schedule: 'Miércoles y Viernes de 2:00 p.m. a 6:00 p.m.',
   sessions: '7.5 sesiones de 4 horas',
-  image: '/lovable-uploads/b17f73e3-c77a-46b7-b766-d984499efa82.png',
+  image: '/extendida-neon-campus/lovable-uploads/b17f73e3-c77a-46b7-b766-d984499efa82.png',
   description: 'Este curso único explora la fascinante intersección entre el diseño arquitectónico y el arte de contar historias. Aprenderás a transformar los espacios en narrativas cautivadoras, enfocándote en cómo elementos como el recorrido, la iluminación, el ritmo visual y la ambientación digital se convierten en poderosos lenguajes narrativos. Utilizando herramientas 3D avanzadas, los participantes desarrollarán la capacidad de evocar emociones y comunicar conceptos a través de la creación de entornos arquitectónicos inmersivos y significativos.',
   tools: ['Blender', 'Unreal Engine', 'Figma'],
   audience: 'Estudiantes y profesionales de arquitectura, diseño de espacios, visualización 3D',

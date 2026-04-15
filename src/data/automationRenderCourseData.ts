@@ -7,7 +7,7 @@ export const automationRenderCourseData = {
   modality: 'Presencial',
   schedule: 'Viernes de 2:00 p.m. a 6:00 p.m.',
   sessions: '5 sesiones de 4 horas',
-  image: '/lovable-uploads/30a4951f-b879-4be0-8179-5bb9f4ef3569.png',
+  image: '/extendida-neon-campus/lovable-uploads/30a4951f-b879-4be0-8179-5bb9f4ef3569.png',
   description: 'Revoluciona tu flujo de trabajo de producción digital aprendiendo a integrar la inteligencia artificial para optimizar y automatizar los complejos procesos de renderizado. Este curso está dirigido a profesionales que buscan eficiencia en proyectos audiovisuales y de animación, minimizando tiempos de render y mejorando la calidad final. A través de casos prácticos, los participantes explorarán cómo la IA puede asistir en la denoise, escalado de imágenes, y la gestión de granjas de render.',
   tools: ['Blender', 'RenderMan', 'Herramientas de optimización IA'],
   audience: 'Animadores, artistas 3D y técnicos interesados en IA aplicada a procesos técnicos.',

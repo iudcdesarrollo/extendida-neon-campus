@@ -31,7 +31,7 @@ export const uxuiXRCourseData: CourseDetailData = {
   sessions: '7.5 sesiones de 4 horas',
   tools: ['Figma (gratuito)', 'Unity (gratuito)', 'herramientas de prototipado XR'],
   audience: 'Diseñadores, desarrolladores y creativos interesados en experiencias inmersivas',
-  image: '/lovable-uploads/b480e4bf-df68-476f-816e-1228a5b23559.png',
+  image: '/extendida-neon-campus/lovable-uploads/b480e4bf-df68-476f-816e-1228a5b23559.png',
   description: 'Este curso especializado aborda el diseño de interfaces y experiencias de usuario específicamente para entornos de Realidad Extendida (XR), que incluyen Realidad Virtual (VR), Realidad Aumentada (AR) y Realidad Mixta (MR). Los participantes explorarán cómo la psicología del usuario, el diseño visual y las técnicas de interacción avanzada se fusionan para crear experiencias inmersivas intuitivas y efectivas. A través de proyectos prácticos, se aprenderá a prototipar y evaluar soluciones UX/UI para el espacio tridimensional.',
   sessions_content: [
     {
