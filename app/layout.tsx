@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Toaster } from '@/components/ui/toaster';
 import { Toaster as Sonner } from '@/components/ui/sonner';
 import { TooltipProvider } from '@/components/ui/tooltip';
+import PromoBanner from '@/components/PromoBanner';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -42,6 +43,7 @@ export default function RootLayout({
         <TooltipProvider>
           <Toaster />
           <Sonner />
+          <PromoBanner />
           {children}
         </TooltipProvider>
       </body>

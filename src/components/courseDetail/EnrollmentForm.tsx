@@ -40,7 +40,7 @@ const EnrollmentForm = () => {
   };
 
   return (
-    <Card className="bg-black/80 border-primary-purple/30 sticky top-24">
+    <Card className="bg-white border border-gray-200 border-primary-purple/30 lg:sticky lg:top-28">
       <CardHeader>
         <CardTitle className="text-2xl font-sora font-bold bg-subtle-gradient bg-clip-text text-transparent">
           Inscríbete Ahora
@@ -54,12 +54,12 @@ const EnrollmentForm = () => {
               name="nombre"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-white">Nombre Completo *</FormLabel>
+                  <FormLabel className="text-gray-900">Nombre Completo *</FormLabel>
                   <FormControl>
                     <Input 
                       placeholder="Tu nombre completo" 
                       {...field} 
-                      className="bg-black/50 border-primary-purple/30 text-white placeholder-gray-400 focus:border-primary-purple"
+                      className="bg-gray-50 border-primary-purple/30 text-gray-900 placeholder-gray-500 focus:border-primary-purple"
                       required
                     />
                   </FormControl>
@@ -73,13 +73,13 @@ const EnrollmentForm = () => {
               name="email"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-white">Email *</FormLabel>
+                  <FormLabel className="text-gray-900">Email *</FormLabel>
                   <FormControl>
                     <Input 
                       type="email"
                       placeholder="tu@email.com" 
                       {...field} 
-                      className="bg-black/50 border-primary-purple/30 text-white placeholder-gray-400 focus:border-primary-purple"
+                      className="bg-gray-50 border-primary-purple/30 text-gray-900 placeholder-gray-500 focus:border-primary-purple"
                       required
                     />
                   </FormControl>
@@ -93,12 +93,12 @@ const EnrollmentForm = () => {
               name="telefono"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-white">Teléfono *</FormLabel>
+                  <FormLabel className="text-gray-900">Teléfono *</FormLabel>
                   <FormControl>
                     <Input 
                       placeholder="300 123 4567" 
                       {...field} 
-                      className="bg-black/50 border-primary-purple/30 text-white placeholder-gray-400 focus:border-primary-purple"
+                      className="bg-gray-50 border-primary-purple/30 text-gray-900 placeholder-gray-500 focus:border-primary-purple"
                       required
                     />
                   </FormControl>
@@ -112,16 +112,16 @@ const EnrollmentForm = () => {
               name="tipoEstudiante"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-white">Tipo de Estudiante *</FormLabel>
+                  <FormLabel className="text-gray-900">Tipo de Estudiante *</FormLabel>
                   <Select onValueChange={field.onChange} defaultValue={field.value}>
                     <FormControl>
-                      <SelectTrigger className="bg-black/50 border-primary-purple/30 text-white">
+                      <SelectTrigger className="bg-gray-50 border-primary-purple/30 text-gray-900">
                         <SelectValue placeholder="Selecciona una opción" />
                       </SelectTrigger>
                     </FormControl>
-                    <SelectContent className="bg-black border-primary-purple/30">
-                      <SelectItem value="estudiante-iudc" className="text-white">Estudiante IUDC</SelectItem>
-                      <SelectItem value="externo" className="text-white">Externo</SelectItem>
+                    <SelectContent className="bg-white border-primary-purple/30">
+                      <SelectItem value="estudiante-iudc" className="text-gray-900">Estudiante IUDC</SelectItem>
+                      <SelectItem value="externo" className="text-gray-900">Externo</SelectItem>
                     </SelectContent>
                   </Select>
                   <FormMessage />
@@ -134,12 +134,12 @@ const EnrollmentForm = () => {
               name="experiencia"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-white">Experiencia Previa</FormLabel>
+                  <FormLabel className="text-gray-900">Experiencia Previa</FormLabel>
                   <FormControl>
                     <Textarea 
                       placeholder="Cuéntanos sobre tu experiencia con narrativa interactiva, Twine o desarrollo de historias..." 
                       {...field} 
-                      className="bg-black/50 border-primary-purple/30 text-white placeholder-gray-400 focus:border-primary-purple min-h-20"
+                      className="bg-gray-50 border-primary-purple/30 text-gray-900 placeholder-gray-500 focus:border-primary-purple min-h-20"
                     />
                   </FormControl>
                   <FormMessage />
@@ -152,12 +152,12 @@ const EnrollmentForm = () => {
               name="motivacion"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-white">¿Por qué quieres tomar este curso?</FormLabel>
+                  <FormLabel className="text-gray-900">¿Por qué quieres tomar este curso?</FormLabel>
                   <FormControl>
                     <Textarea 
                       placeholder="Cuéntanos tus motivaciones y objetivos..." 
                       {...field} 
-                      className="bg-black/50 border-primary-purple/30 text-white placeholder-gray-400 focus:border-primary-purple min-h-20"
+                      className="bg-gray-50 border-primary-purple/30 text-gray-900 placeholder-gray-500 focus:border-primary-purple min-h-20"
                     />
                   </FormControl>
                   <FormMessage />

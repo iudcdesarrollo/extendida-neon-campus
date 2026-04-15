@@ -22,7 +22,7 @@ interface CourseCardProps {
 
 const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
   return (
-    <div className="group bg-black/60 rounded-2xl border border-primary-purple/20 hover:border-primary-purple/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary-purple/20 hover:-translate-y-2 overflow-hidden">
+    <div className="group bg-white border border-gray-200 rounded-2xl border border-primary-purple/20 hover:border-primary-purple/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary-purple/20 hover:-translate-y-2 overflow-hidden">
       {/* Course Image */}
       <div className="relative h-48 overflow-hidden">
         <img
@@ -35,24 +35,24 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
 
       <div className="p-6">
         {/* Course Title */}
-        <h3 className="text-xl font-sora font-bold text-white mb-3 group-hover:text-primary-purple transition-colors line-clamp-2">
+        <h3 className="text-xl font-sora font-bold text-gray-900 mb-3 group-hover:text-primary-purple transition-colors line-clamp-2">
           {course.title}
         </h3>
 
         {/* Duration and Price */}
         <div className="flex justify-between items-center mb-4">
-          <span className="text-white font-inter font-semibold flex items-center gap-1">
-            <Clock className="w-4 h-4 text-white" />
+          <span className="text-gray-900 font-inter font-semibold flex items-center gap-1">
+            <Clock className="w-4 h-4 text-gray-500" />
             {course.duration}
           </span>
         </div>
 
         {/* Prices */}
         <div className="mb-4 space-y-1">
-          <p className="text-white font-inter font-semibold">
+          <p className="text-gray-900 font-inter font-semibold">
             Estudiantes IUDC: {course.priceStudent}
           </p>
-          <p className="text-white font-inter">
+          <p className="text-gray-900 font-inter">
             Externos: {course.priceExternal}
           </p>
         </div>
@@ -70,8 +70,8 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
         </div>
 
         {/* Audience */}
-        <p className="text-white font-inter text-sm mb-6 leading-relaxed line-clamp-2">
-          <Users className="inline w-4 h-4 text-white mr-2" />
+        <p className="text-gray-900 font-inter text-sm mb-6 leading-relaxed line-clamp-2">
+          <Users className="inline w-4 h-4 text-gray-500 mr-2" />
           {course.audience}
         </p>
 

@@ -126,13 +126,13 @@ export default function TestHomePage() {
             <div className="px-5 py-4 space-y-0.5">
               {navLinks.map((l) => (
                 <Link key={l.name} href={l.href} onClick={() => setMenuOpen(false)}
-                  className="block py-2.5 text-white/70 hover:text-white text-sm font-medium transition-colors">
+                  className="block py-2.5 text-white/70 hover:text-gray-700 text-sm font-medium transition-colors">
                   {l.name}
                 </Link>
               ))}
               <button
                 onClick={() => { window.open('https://wa.me/573107823744', '_blank'); setMenuOpen(false); }}
-                className="w-full mt-3 bg-primary-purple text-white text-sm font-semibold py-2.5 rounded-lg">
+                className="w-full mt-3 bg-primary-purple text-gray-700 text-sm font-semibold py-2.5 rounded-lg">
                 Inscríbete
               </button>
             </div>
@@ -156,7 +156,7 @@ export default function TestHomePage() {
                 Inscripciones abiertas 2026
               </div>
 
-              <h1 className="text-4xl md:text-5xl lg:text-[3.5rem] font-sora font-extrabold text-white leading-[1.1] tracking-tight mb-4">
+              <h1 className="text-4xl md:text-5xl lg:text-[3.5rem] font-sora font-extrabold text-gray-900 leading-[1.1] tracking-tight mb-4">
                 Donde el arte
                 <br />
                 <span className="bg-gradient-to-r from-primary-purple via-accent-purple to-primary-blue bg-clip-text text-transparent">
@@ -209,7 +209,7 @@ export default function TestHomePage() {
                     <span className="text-white/25 text-[10px] ml-1">workspace.blend</span>
                   </div>
 
-                  <div className="bg-black/25 rounded-lg p-3.5 border border-white/[0.05]">
+                  <div className="bg-gray-50 rounded-lg p-3.5 border border-white/[0.05]">
                     <div className="flex items-center gap-1.5 mb-2.5">
                       <Film className="w-3 h-3 text-primary-purple" />
                       <span className="text-white/55 text-[11px] font-sora font-medium">Timeline</span>
@@ -225,7 +225,7 @@ export default function TestHomePage() {
                     ))}
                   </div>
 
-                  <div className="bg-black/25 rounded-lg p-3.5 border border-white/[0.05]">
+                  <div className="bg-gray-50 rounded-lg p-3.5 border border-white/[0.05]">
                     <div className="flex items-center gap-1.5 mb-2.5">
                       <PenTool className="w-3 h-3 text-accent-blue" />
                       <span className="text-white/55 text-[11px] font-sora font-medium">Herramientas</span>
@@ -237,7 +237,7 @@ export default function TestHomePage() {
                     </div>
                   </div>
 
-                  <div className="flex items-center justify-between bg-black/25 rounded-lg p-3.5 border border-white/[0.05]">
+                  <div className="flex items-center justify-between bg-gray-50 rounded-lg p-3.5 border border-white/[0.05]">
                     <div className="flex items-center gap-2.5">
                       <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-purple to-primary-blue flex items-center justify-center">
                         <Award className="w-4 h-4 text-white" />
@@ -285,7 +285,7 @@ export default function TestHomePage() {
                 }`}>
                   <step.icon className="w-4 h-4 text-white" />
                 </div>
-                <h3 className="text-white font-sora font-semibold text-sm mb-1">{step.title}</h3>
+                <h3 className="text-gray-900 font-sora font-semibold text-sm mb-1">{step.title}</h3>
                 <p className="text-white/50 text-xs leading-relaxed">{step.desc}</p>
               </div>
             ))}
@@ -302,7 +302,7 @@ export default function TestHomePage() {
               <p className="text-primary-purple text-[11px] font-sora font-semibold tracking-[0.2em] uppercase mb-2">Destacados</p>
               <h2 className="text-2xl md:text-3xl font-sora font-bold text-white tracking-tight">Cursos que transforman</h2>
             </div>
-            <Link href="/cursos" className="hidden md:flex items-center gap-1 text-white/45 hover:text-white text-xs font-medium transition-colors">
+            <Link href="/cursos" className="hidden md:flex items-center gap-1 text-white/45 hover:text-gray-600 text-xs font-medium transition-colors">
               Ver todos <ChevronRight className="w-3.5 h-3.5" />
             </Link>
           </div>
@@ -316,13 +316,13 @@ export default function TestHomePage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-dark-bg via-dark-bg/40 to-transparent" />
                   <div className="absolute top-2.5 left-2.5 flex gap-1.5">
                     <span className="px-2 py-0.5 rounded bg-primary-purple text-white text-[10px] font-semibold">{course.tag}</span>
-                    <span className="px-2 py-0.5 rounded bg-black/50 backdrop-blur text-white/80 text-[10px] flex items-center gap-1">
+                    <span className="px-2 py-0.5 rounded bg-gray-50 backdrop-blur text-white/80 text-[10px] flex items-center gap-1">
                       <Clock className="w-2.5 h-2.5" />{course.hours}
                     </span>
                   </div>
                 </div>
                 <div className="p-4">
-                  <h3 className="text-white font-sora font-semibold text-sm mb-1.5 group-hover:text-primary-purple transition-colors leading-snug">{course.title}</h3>
+                  <h3 className="text-gray-900 font-sora font-semibold text-sm mb-1.5 group-hover:text-primary-purple transition-colors leading-snug">{course.title}</h3>
                   <p className="text-white/45 text-xs leading-relaxed mb-3">{course.description}</p>
                   <span className="inline-flex items-center text-primary-purple text-xs font-sora font-medium">
                     Ver detalles <ArrowRight className="w-3 h-3 ml-1 group-hover:translate-x-0.5 transition-transform" />
@@ -333,7 +333,7 @@ export default function TestHomePage() {
           </div>
 
           <div className="mt-5 text-center md:hidden">
-            <Link href="/cursos" className="inline-flex items-center gap-1 text-white/45 hover:text-white text-xs font-medium transition-colors">
+            <Link href="/cursos" className="inline-flex items-center gap-1 text-white/45 hover:text-gray-600 text-xs font-medium transition-colors">
               Ver todos los cursos <ChevronRight className="w-3.5 h-3.5" />
             </Link>
           </div>
@@ -359,10 +359,10 @@ export default function TestHomePage() {
                 <p className="text-white/55 text-[13px] leading-relaxed mb-4">&ldquo;{t.text}&rdquo;</p>
                 <div className="flex items-center gap-2.5">
                   <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary-purple to-primary-blue flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-sora font-bold text-[11px]">{t.name[0]}</span>
+                    <span className="text-gray-900 font-sora font-bold text-[11px]">{t.name[0]}</span>
                   </div>
                   <div>
-                    <p className="text-white font-sora font-medium text-xs">{t.name}</p>
+                    <p className="text-gray-900 font-sora font-medium text-xs">{t.name}</p>
                     <p className="text-white/40 text-[11px]">{t.role}</p>
                   </div>
                 </div>
@@ -434,7 +434,7 @@ export default function TestHomePage() {
               <div className="flex gap-2">
                 {socials.map((s) => (
                   <a key={s.name} href={s.href} aria-label={s.name}
-                    className="w-8 h-8 rounded-lg bg-white/[0.05] border border-white/[0.08] flex items-center justify-center text-white/40 hover:text-white hover:bg-white/[0.1] hover:border-white/[0.15] transition-all">
+                    className="w-8 h-8 rounded-lg bg-white/[0.05] border border-white/[0.08] flex items-center justify-center text-white/40 hover:text-gray-900 hover:bg-white/[0.1] hover:border-white/[0.15] transition-all">
                     <s.icon />
                   </a>
                 ))}

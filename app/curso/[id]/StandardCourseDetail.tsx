@@ -16,9 +16,9 @@ export default function StandardCourseDetail({ courseData }: { courseData: Norma
 
       <CourseHero courseData={courseData} />
 
-      <section className="py-16 bg-dark-bg">
+      <section className="py-8 md:py-16 bg-dark-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-3 gap-12">
+          <div className="grid lg:grid-cols-3 gap-6 lg:gap-12">
             <CourseContent
               description={courseData.description}
               tools={courseData.tools}

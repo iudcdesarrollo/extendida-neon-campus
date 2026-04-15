@@ -29,10 +29,10 @@ const FAQ = () => {
   };
 
   return (
-    <section className="py-20 bg-dark-bg relative">
+    <section className="py-10 md:py-20 bg-dark-bg relative">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-sora font-bold text-white mb-6">
+        <div className="text-center mb-8 md:mb-16">
+          <h2 className="text-4xl md:text-5xl font-sora font-bold text-gray-900 mb-6">
             Preguntas{' '}
             <span className="bg-subtle-gradient bg-clip-text text-transparent">
               Frecuentes
@@ -44,13 +44,13 @@ const FAQ = () => {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-black/50 border border-primary-purple/20 rounded-2xl overflow-hidden hover:border-primary-purple/50 transition-all duration-300"
+              className="bg-gray-50 border border-primary-purple/20 rounded-2xl overflow-hidden hover:border-primary-purple/50 transition-all duration-300"
             >
               <button
                 onClick={() => toggleFAQ(index)}
                 className="w-full text-left p-6 flex justify-between items-center hover:bg-primary-purple/5 transition-colors"
               >
-                <span className="font-sora font-bold text-white text-lg pr-4">
+                <span className="font-sora font-bold text-gray-900 text-lg pr-4">
                   {faq.question}
                 </span>
                 <svg
@@ -68,7 +68,7 @@ const FAQ = () => {
               {openIndex === index && (
                 <div className="px-6 pb-6">
                   <div className="h-px bg-subtle-gradient mb-4"></div>
-                  <p className="text-gray-300 font-inter leading-relaxed">
+                  <p className="text-gray-600 font-inter leading-relaxed">
                     {faq.answer}
                   </p>
                 </div>

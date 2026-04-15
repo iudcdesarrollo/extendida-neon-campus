@@ -30,7 +30,7 @@ const CourseHero: React.FC<CourseHeroProps> = ({ courseData }) => {
         {/* Back Button */}
         <Link
           href="/cursos"
-          className="inline-flex items-center text-white hover:text-primary-purple transition-colors mb-8 group"
+          className="inline-flex items-center text-gray-700 hover:text-primary-purple transition-colors mb-8 group"
         >
           <ArrowLeft className="w-5 h-5 mr-2 group-hover:-translate-x-1 transition-transform" />
           Volver a Cursos
@@ -38,24 +38,24 @@ const CourseHero: React.FC<CourseHeroProps> = ({ courseData }) => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-4xl md:text-5xl font-sora font-bold text-white mb-6">
+            <h1 className="text-4xl md:text-5xl font-sora font-bold text-gray-900 mb-6">
               {courseData.title}
             </h1>
 
-            <div className="grid grid-cols-2 gap-4 mb-6">
-              <div className="flex items-center text-white">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+              <div className="flex items-center text-gray-900">
                 <Clock className="w-5 h-5 mr-2 text-primary-purple" />
                 <span className="font-inter">{courseData.duration}</span>
               </div>
-              <div className="flex items-center text-white">
+              <div className="flex items-center text-gray-900">
                 <MapPin className="w-5 h-5 mr-2 text-primary-purple" />
                 <span className="font-inter">{courseData.modality}</span>
               </div>
-              <div className="flex items-center text-white">
+              <div className="flex items-center text-gray-900">
                 <Calendar className="w-5 h-5 mr-2 text-primary-purple" />
                 <span className="font-inter text-sm">{courseData.schedule}</span>
               </div>
-              <div className="flex items-center text-white">
+              <div className="flex items-center text-gray-900">
                 <Users className="w-5 h-5 mr-2 text-primary-purple" />
                 <span className="font-inter text-sm">{courseData.sessions}</span>
               </div>
@@ -63,8 +63,8 @@ const CourseHero: React.FC<CourseHeroProps> = ({ courseData }) => {
 
             <div className="mb-6">
               <p className="text-primary-purple font-inter font-semibold mb-2">Precios:</p>
-              <p className="text-white font-inter">Estudiantes IUDC: <span className="text-accent-blue font-bold">{courseData.priceStudent}</span></p>
-              <p className="text-white font-inter">Externos: <span className="text-accent-blue font-bold">{courseData.priceExternal}</span></p>
+              <p className="text-gray-900 font-inter">Estudiantes IUDC: <span className="text-accent-blue font-bold">{courseData.priceStudent}</span></p>
+              <p className="text-gray-900 font-inter">Externos: <span className="text-accent-blue font-bold">{courseData.priceExternal}</span></p>
             </div>
           </div>
 

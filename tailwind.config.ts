@@ -52,7 +52,7 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				// Colores más serios - azules y morados
-				'dark-bg': '#0c0f1a',
+				'dark-bg': '#fafafa',
 				'primary-purple': '#7c3aed',
 				'primary-blue': '#3b82f6',
 				'accent-purple': '#a855f7',
@@ -122,7 +122,7 @@ export default {
 				'inter': ['Inter', 'sans-serif'],
 			},
 			backgroundImage: {
-				'tech-gradient': 'linear-gradient(135deg, #0c0f1a 0%, #1a0f2e 50%, #0c0f1a 100%)',
+				'tech-gradient': 'linear-gradient(135deg, #f0edff 0%, #e8e0ff 50%, #f0edff 100%)',
 				'subtle-gradient': 'linear-gradient(135deg, #7c3aed 0%, #3b82f6 100%)',
 			}
 		}
