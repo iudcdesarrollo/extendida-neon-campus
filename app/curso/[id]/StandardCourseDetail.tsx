@@ -16,16 +16,15 @@ export default function StandardCourseDetail({ courseData }: { courseData: Norma
 
       <CourseHero courseData={courseData} />
 
-      <section className="py-8 md:py-16 bg-dark-bg">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-3 gap-6 lg:gap-12">
+      <section className="px-4 sm:px-6 lg:px-8 py-4 pb-8">
+        <div className="max-w-7xl mx-auto bg-gradient-to-br from-gray-50 to-white border border-gray-200 rounded-3xl px-6 py-8 md:px-10 md:py-10">
+          <div className="grid lg:grid-cols-3 gap-6 lg:gap-10">
             <CourseContent
               description={courseData.description}
               tools={courseData.tools}
               audience={courseData.audience}
               sessionsContent={courseData.sessionsContent}
             />
-
             <div>
               <EnrollmentForm />
             </div>

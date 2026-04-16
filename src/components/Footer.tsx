@@ -50,13 +50,13 @@ const Footer = () => {
           {/* Brand */}
           <div className="sm:col-span-2 md:col-span-1">
             <Link href="/" className="inline-block mb-2">
-              <img
+              <img loading="lazy"
                 src="/extendida-neon-campus/lovable-uploads/8b1e7650-cdc7-488e-92e9-bbdef0ef8af6.png"
                 alt="Aula Extendida"
                 className="h-7 w-auto object-contain"
               />
             </Link>
-            <img
+            <img loading="lazy"
               src="/extendida-neon-campus/lovable-uploads/41d3f0cf-4b86-4b4b-b86d-93cdad9ee711.png"
               alt="IUDC"
               className="h-8 w-auto object-contain mb-4"

@@ -22,7 +22,7 @@ const Navbar = () => {
   const isActive = (path: string) => pathname === path;
 
   return (
-    <nav className="fixed top-9 w-full z-50 bg-white/70 backdrop-blur-2xl backdrop-saturate-150 border-b border-white/40 shadow-lg shadow-black/5" style={{ WebkitBackdropFilter: 'blur(40px) saturate(1.5)' }}>
+    <nav className="fixed top-9 w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-200/50 shadow-sm">
       <div className="max-w-6xl mx-auto px-5">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}

@@ -23,9 +23,9 @@ const CourseHero: React.FC<CourseHeroProps> = ({ courseData }) => {
     <div className="px-4 sm:px-6 lg:px-8 pt-28 md:pt-36 pb-4">
       <section className="relative bg-gradient-to-br from-[#1a0f2e] via-[#0f0a1f] to-[#0c0f1a] overflow-hidden rounded-3xl max-w-7xl mx-auto">
         <div className="absolute inset-0 hidden sm:block">
-          <div className="absolute top-16 left-10 w-24 h-24 border border-primary-purple/20 rounded-full animate-float"></div>
-          <div className="absolute bottom-16 right-16 w-16 h-16 border border-primary-blue/20 rounded-lg rotate-45 animate-float" style={{animationDelay: '2s'}}></div>
-          <div className="absolute top-1/2 left-1/3 w-72 h-72 bg-primary-purple/10 rounded-full blur-3xl"></div>
+          <div className="absolute top-16 left-10 w-24 h-24 border border-primary-purple/20 rounded-full sm:animate-float"></div>
+          <div className="absolute bottom-16 right-16 w-16 h-16 border border-primary-blue/20 rounded-lg rotate-45 sm:animate-float" style={{animationDelay: '2s'}}></div>
+          <div className="absolute top-1/2 left-1/3 w-72 h-72 bg-primary-purple/10 rounded-full blur-2xl"></div>
         </div>
 
         <div className="relative px-6 sm:px-10 lg:px-14 py-8 md:py-10">
@@ -71,7 +71,7 @@ const CourseHero: React.FC<CourseHeroProps> = ({ courseData }) => {
             </div>
 
             <div className="relative">
-              <img
+              <img loading="lazy"
                 src={courseData.image}
                 alt={courseData.title}
                 className="w-full h-48 md:h-72 object-cover rounded-2xl border border-white/10"

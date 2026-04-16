@@ -62,14 +62,23 @@ const CoursesCarousel = () => {
         .animate-scroll-left {
           animation: scroll-left 60s linear infinite;
           width: max-content;
+          will-change: transform;
+          backface-visibility: hidden;
         }
         .animate-scroll-right {
           animation: scroll-right 65s linear infinite;
           width: max-content;
+          will-change: transform;
+          backface-visibility: hidden;
         }
         .animate-scroll-left:hover,
         .animate-scroll-right:hover {
           animation-play-state: paused;
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .animate-scroll-left, .animate-scroll-right {
+            animation: none;
+          }
         }
       `}</style>
     </section>
@@ -80,7 +89,7 @@ function CourseCard({ course }: { course: typeof courses[0] }) {
   const content = (
     <div className="group w-64 h-56 flex-shrink-0 bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-primary-purple/40 hover:shadow-lg hover:shadow-primary-purple/10 transition-all cursor-pointer flex flex-col">
       <div className="relative h-28 overflow-hidden flex-shrink-0">
-        <img
+        <img loading="lazy"
           src={course.image}
           alt={course.title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

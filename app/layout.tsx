@@ -3,6 +3,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { Toaster as Sonner } from '@/components/ui/sonner';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import PromoBanner from '@/components/PromoBanner';
+import ChatBot from '@/components/ChatBot';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -45,6 +46,7 @@ export default function RootLayout({
           <Sonner />
           <PromoBanner />
           {children}
+          <ChatBot />
         </TooltipProvider>
       </body>
     </html>

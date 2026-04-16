@@ -98,7 +98,7 @@ export default function TestHomePage() {
             </div>
 
             <Link href="/test" className="absolute left-1/2 -translate-x-1/2">
-              <img src="/extendida-neon-campus/lovable-uploads/8b1e7650-cdc7-488e-92e9-bbdef0ef8af6.png" alt="Aula Extendida" className="h-6 w-auto object-contain" />
+              <img loading="lazy" src="/extendida-neon-campus/lovable-uploads/8b1e7650-cdc7-488e-92e9-bbdef0ef8af6.png" alt="Aula Extendida" className="h-6 w-auto object-contain" />
             </Link>
 
             <div className="hidden md:flex items-center gap-6">
@@ -312,7 +312,7 @@ export default function TestHomePage() {
               <Link key={course.id} href={`/curso/${course.id}`}
                 className="group bg-white/[0.02] border border-white/[0.06] rounded-xl overflow-hidden hover:border-primary-purple/30 transition-all duration-200 hover:-translate-y-0.5">
                 <div className="relative h-36 overflow-hidden">
-                  <img src={course.image} alt={course.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <img loading="lazy" src={course.image} alt={course.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                   <div className="absolute inset-0 bg-gradient-to-t from-dark-bg via-dark-bg/40 to-transparent" />
                   <div className="absolute top-2.5 left-2.5 flex gap-1.5">
                     <span className="px-2 py-0.5 rounded bg-primary-purple text-white text-[10px] font-semibold">{course.tag}</span>
@@ -402,7 +402,7 @@ export default function TestHomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-6 mb-10">
             {/* Brand */}
             <div className="col-span-2 md:col-span-1">
-              <img src="/extendida-neon-campus/lovable-uploads/8b1e7650-cdc7-488e-92e9-bbdef0ef8af6.png" alt="Aula Extendida" className="h-6 w-auto object-contain mb-3" />
+              <img loading="lazy" src="/extendida-neon-campus/lovable-uploads/8b1e7650-cdc7-488e-92e9-bbdef0ef8af6.png" alt="Aula Extendida" className="h-6 w-auto object-contain mb-3" />
               <p className="text-white/40 text-xs leading-relaxed max-w-[220px]">
                 Formamos creadores digitales con cursos prácticos en animación, 3D y diseño.
               </p>

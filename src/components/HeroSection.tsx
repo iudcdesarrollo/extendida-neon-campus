@@ -10,10 +10,10 @@ const HeroSection = () => {
       <section className="relative bg-gradient-to-br from-[#1a0f2e] via-[#0f0a1f] to-[#0c0f1a] overflow-hidden rounded-3xl max-w-7xl mx-auto">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 hidden sm:block">
-          <div className="absolute top-16 left-10 w-24 h-24 border border-primary-purple/20 rounded-full animate-float"></div>
-          <div className="absolute top-32 right-20 w-16 h-16 border border-primary-blue/20 rounded-lg rotate-45 animate-float" style={{animationDelay: '2s'}}></div>
-          <div className="absolute bottom-16 left-20 w-12 h-12 border border-accent-purple/20 rounded-full animate-float" style={{animationDelay: '4s'}}></div>
-          <div className="absolute top-1/3 right-1/3 w-72 h-72 bg-primary-purple/8 rounded-full blur-[100px]"></div>
+          <div className="absolute top-16 left-10 w-24 h-24 border border-primary-purple/20 rounded-full sm:animate-float"></div>
+          <div className="absolute top-32 right-20 w-16 h-16 border border-primary-blue/20 rounded-lg rotate-45 sm:animate-float" style={{animationDelay: '2s'}}></div>
+          <div className="absolute bottom-16 left-20 w-12 h-12 border border-accent-purple/20 rounded-full sm:animate-float" style={{animationDelay: '4s'}}></div>
+          <div className="absolute top-1/3 right-1/3 w-72 h-72 bg-primary-purple/8 rounded-full blur-[60px]"></div>
         </div>
 
         <div className="relative px-6 sm:px-10 lg:px-14 py-8 md:py-10">
@@ -55,8 +55,8 @@ const HeroSection = () => {
             {/* Image */}
             <div className="relative flex justify-center lg:justify-end">
               <div className="relative">
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 rounded-full bg-subtle-gradient opacity-20 animate-glow z-0"></div>
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 rounded-full border-2 border-primary-blue animate-spin z-0" style={{animationDuration: '20s'}}></div>
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 rounded-full bg-subtle-gradient opacity-20 sm:animate-glow z-0"></div>
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 rounded-full border-2 border-primary-blue sm:animate-spin z-0" style={{animationDuration: '20s'}}></div>
 
                 <div className="relative z-10">
                   <img
