@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { Zap, Gift } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
@@ -38,32 +39,31 @@ export default function ContactoPage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-28 md:pt-36 pb-8 md:pb-16 bg-tech-gradient relative overflow-hidden">
-        <div className="absolute inset-0 hidden sm:block">
-          <div className="absolute top-20 left-10 w-32 h-32 border border-primary-purple/20 rounded-full animate-float"></div>
-          <div className="absolute bottom-20 right-20 w-24 h-24 border border-primary-blue/20 rounded-lg rotate-45 animate-float" style={{animationDelay: '2s'}}></div>
-          <div className="absolute top-1/3 right-1/4 w-16 h-16 border border-accent-purple/20 rounded-full animate-float" style={{animationDelay: '4s'}}></div>
-        </div>
-
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-6xl font-sora font-bold text-gray-900 mb-6">
-            Comienza Tu{' '}
-            <span className="bg-subtle-gradient bg-clip-text text-transparent">
-              Transformación
-            </span>
-          </h1>
-          <p className="text-base md:text-xl text-gray-600 font-inter max-w-3xl mx-auto">
-            Estás a un paso de dominar las tecnologías del futuro. Inscríbete ahora y únete a la próxima generación de creadores digitales.
-          </p>
-        </div>
-      </section>
+      <div className="px-4 sm:px-6 lg:px-8 pt-28 md:pt-36 pb-4">
+        <section className="relative bg-gradient-to-br from-[#1a0f2e] via-[#0f0a1f] to-[#0c0f1a] overflow-hidden rounded-3xl max-w-7xl mx-auto">
+          <div className="absolute inset-0 hidden sm:block">
+            <div className="absolute top-16 left-10 w-24 h-24 border border-primary-purple/20 rounded-full animate-float"></div>
+            <div className="absolute bottom-16 right-16 w-16 h-16 border border-primary-blue/20 rounded-lg rotate-45 animate-float" style={{animationDelay: '2s'}}></div>
+            <div className="absolute top-1/2 left-1/3 w-72 h-72 bg-primary-purple/10 rounded-full blur-3xl"></div>
+          </div>
+          <div className="relative px-6 sm:px-10 lg:px-14 py-10 md:py-14 text-center">
+            <h1 className="text-3xl md:text-5xl font-sora font-bold text-white mb-4 leading-tight">
+              Comienza Tu{' '}
+              <span className="bg-subtle-gradient bg-clip-text text-transparent">Transformación</span>
+            </h1>
+            <p className="text-base md:text-lg text-gray-300 font-inter max-w-2xl mx-auto">
+              Estás a un paso de dominar las tecnologías del futuro. Inscríbete ahora y únete a la próxima generación de creadores digitales.
+            </p>
+          </div>
+        </section>
+      </div>
 
       {/* Contact Form Section */}
       <section className="py-10 md:py-20 bg-dark-bg">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
             {/* Form */}
-            <div className="bg-white border border-gray-200 p-8 rounded-2xl border border-primary-purple/30 hover:border-primary-purple/50 transition-all duration-300">
+            <div className="bg-white p-8 rounded-2xl border border-primary-purple/30 hover:border-primary-purple/50 transition-all duration-300">
               <h2 className="text-2xl md:text-3xl font-sora font-bold text-gray-900 mb-8 text-center">
                 Formulario de{' '}
                 <span className="bg-subtle-gradient bg-clip-text text-transparent">
@@ -110,7 +110,7 @@ export default function ContactoPage() {
 
             {/* Contact Info */}
             <div className="space-y-8">
-              <div className="bg-white border border-gray-200 p-6 rounded-2xl border border-whatsapp-green/30 relative overflow-hidden">
+              <div className="bg-white p-6 rounded-2xl border border-whatsapp-green/30 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-20 h-20 bg-whatsapp-green/10 rounded-full -mr-10 -mt-10"></div>
                 <div className="relative">
                   <div className="flex items-center mb-4">
@@ -131,10 +131,10 @@ export default function ContactoPage() {
                 </div>
               </div>
 
-              <div className="bg-white border border-gray-200 p-6 rounded-2xl border border-primary-blue/30">
+              <div className="bg-white p-6 rounded-2xl border border-primary-blue/30">
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 bg-primary-blue rounded-lg flex items-center justify-center mr-4">
-                    <span className="text-gray-900 text-xl">⚡</span>
+                    <Zap className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="text-lg md:text-xl font-sora font-bold text-gray-900">Respuesta Rápida</h3>
                 </div>
@@ -143,10 +143,10 @@ export default function ContactoPage() {
                 </p>
               </div>
 
-              <div className="bg-white border border-gray-200 p-6 rounded-2xl border border-accent-purple/30">
+              <div className="bg-white p-6 rounded-2xl border border-accent-purple/30">
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 bg-accent-purple rounded-lg flex items-center justify-center mr-4">
-                    <span className="text-gray-900 text-xl">🎁</span>
+                    <Gift className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="text-lg md:text-xl font-sora font-bold text-gray-900">Beneficios Especiales</h3>
                 </div>

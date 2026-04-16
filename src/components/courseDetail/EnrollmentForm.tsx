@@ -40,7 +40,7 @@ const EnrollmentForm = () => {
   };
 
   return (
-    <Card className="bg-white border border-gray-200 border-primary-purple/30 lg:sticky lg:top-28">
+    <Card className="bg-white border border-primary-purple/30 lg:sticky lg:top-28">
       <CardHeader>
         <CardTitle className="text-2xl font-sora font-bold bg-subtle-gradient bg-clip-text text-transparent">
           Inscríbete Ahora

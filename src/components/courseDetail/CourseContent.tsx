@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Users, CheckCircle } from 'lucide-react';
+import { Users, CheckCircle, Calendar } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 interface SessionContent {
@@ -68,12 +68,13 @@ const CourseContent: React.FC<CourseContentProps> = ({
 
       {/* Session Content */}
       <div>
-        <h2 className="text-2xl md:text-3xl font-sora font-bold text-gray-900 mb-6">
-          📅 Contenido por Sesión
+        <h2 className="text-2xl md:text-3xl font-sora font-bold text-gray-900 mb-6 flex items-center gap-3">
+          <Calendar className="w-7 h-7 text-primary-purple" />
+          Contenido por Sesión
         </h2>
         <div className="space-y-4">
           {safeSessionsContent.map((session, index) => (
-            <Card key={index} className="bg-white border border-gray-200 border-primary-purple/20 hover:border-primary-purple/50 transition-colors">
+            <Card key={index} className="bg-white border border-primary-purple/20 hover:border-primary-purple/50 transition-colors">
               <CardHeader className="pb-3">
                 <CardTitle className="text-gray-900 font-sora flex items-center">
                   <CheckCircle className="w-5 h-5 text-primary-purple mr-3" />

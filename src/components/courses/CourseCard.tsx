@@ -22,7 +22,7 @@ interface CourseCardProps {
 
 const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
   return (
-    <div className="group bg-white border border-gray-200 rounded-2xl border border-primary-purple/20 hover:border-primary-purple/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary-purple/20 hover:-translate-y-2 overflow-hidden">
+    <div className="group bg-white rounded-2xl border border-primary-purple/20 hover:border-primary-purple/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary-purple/20 hover:-translate-y-2 overflow-hidden">
       {/* Course Image */}
       <div className="relative h-48 overflow-hidden">
         <img
