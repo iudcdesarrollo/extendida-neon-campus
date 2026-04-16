@@ -24,7 +24,7 @@ export default function CursosPage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-20 pb-16 bg-tech-gradient relative overflow-hidden">
+      <section className="pt-28 md:pt-36 pb-8 md:pb-16 bg-tech-gradient relative overflow-hidden">
         <div className="absolute inset-0 hidden sm:block">
           <div className="absolute top-20 left-10 w-32 h-32 border border-primary-purple/20 rounded-full animate-float"></div>
           <div className="absolute bottom-20 right-20 w-24 h-24 border border-primary-blue/20 rounded-lg rotate-45 animate-float" style={{animationDelay: '2s'}}></div>
@@ -37,7 +37,7 @@ export default function CursosPage() {
               Cursos
             </span>
           </h1>
-          <p className="text-xl text-gray-600 font-inter max-w-3xl mx-auto">
+          <p className="text-base md:text-xl text-gray-600 font-inter max-w-3xl mx-auto">
             Aprende a crear, modelar, diseñar e innovar desde cero con tecnologías que están revolucionando el mundo digital.
           </p>
         </div>

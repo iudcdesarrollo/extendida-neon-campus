@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const HeroSection = () => {
   return (
-    <div className="px-4 sm:px-6 lg:px-8 pt-22 md:pt-24 pb-4">
+    <div className="px-4 sm:px-6 lg:px-8 pt-28 md:pt-36 pb-4">
       <section className="relative bg-gradient-to-br from-[#1a0f2e] via-[#0f0a1f] to-[#0c0f1a] overflow-hidden rounded-3xl max-w-7xl mx-auto">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 hidden sm:block">

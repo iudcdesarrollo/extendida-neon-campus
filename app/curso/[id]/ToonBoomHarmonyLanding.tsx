@@ -44,7 +44,7 @@ export default function ToonBoomHarmonyLanding() {
       <Navbar />
 
       {/* HERO */}
-      <section className="relative overflow-hidden pt-24 pb-20 bg-tech-gradient">
+      <section className="relative overflow-hidden pt-28 md:pt-36 pb-10 md:pb-20 bg-tech-gradient">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-24 left-10 w-40 h-40 border border-primary-purple/20 rounded-full animate-float" />
           <div className="absolute bottom-20 right-16 w-28 h-28 border border-primary-blue/20 rounded-lg rotate-45 animate-float" style={{ animationDelay: '2s' }} />
@@ -74,7 +74,7 @@ export default function ToonBoomHarmonyLanding() {
                 <a href="#inscripcion" className="inline-flex items-center justify-center px-8 py-4 bg-subtle-gradient text-white font-semibold font-inter rounded-xl hover:shadow-lg hover:shadow-primary-purple/50 transition-all duration-300 transform hover:scale-105">
                   Inscríbete Ahora
                 </a>
-                <a href="#curriculum" className="inline-flex items-center justify-center px-8 py-4 border border-primary-purple/50 text-white font-semibold font-inter rounded-xl hover:bg-primary-purple/10 transition-colors">
+                <a href="#curriculum" className="inline-flex items-center justify-center px-8 py-4 border border-primary-purple/50 text-gray-700 font-semibold font-inter rounded-xl hover:bg-primary-purple/10 transition-colors">
                   Ver Currículum
                 </a>
               </div>
@@ -185,7 +185,7 @@ export default function ToonBoomHarmonyLanding() {
             <div className="relative bg-white border border-gray-200 border-2 border-primary-purple rounded-2xl p-8 overflow-hidden">
               <div className="absolute -top-px left-1/2 -translate-x-1/2 bg-subtle-gradient text-gray-900 font-inter text-xs px-4 py-1 rounded-b-lg uppercase tracking-wider">Tarifa preferencial</div>
               <div className="mt-4">
-                <h3 className="text-xl font-sora font-bold text-gray-900 mb-2">Estudiante activo IUDC</h3>
+                <h3 className="text-lg md:text-xl font-sora font-bold text-gray-900 mb-2">Estudiante activo IUDC</h3>
                 <div className="flex items-baseline gap-2 mb-6">
                   <span className="text-4xl md:text-5xl font-sora font-bold bg-subtle-gradient bg-clip-text text-transparent">$400.000</span>
                   <span className="text-gray-500 font-inter">COP</span>
@@ -200,7 +200,7 @@ export default function ToonBoomHarmonyLanding() {
             </div>
             <div className="bg-white border border-gray-200 border border-primary-purple/30 rounded-2xl p-8 hover:border-primary-purple/60 transition-colors">
               <div className="mt-4">
-                <h3 className="text-xl font-sora font-bold text-gray-900 mb-2">Participante externo</h3>
+                <h3 className="text-lg md:text-xl font-sora font-bold text-gray-900 mb-2">Participante externo</h3>
                 <div className="flex items-baseline gap-2 mb-6">
                   <span className="text-4xl md:text-5xl font-sora font-bold text-gray-900">$600.000</span>
                   <span className="text-gray-500 font-inter">COP</span>

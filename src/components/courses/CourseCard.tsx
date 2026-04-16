@@ -35,7 +35,7 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
 
       <div className="p-6">
         {/* Course Title */}
-        <h3 className="text-xl font-sora font-bold text-gray-900 mb-3 group-hover:text-primary-purple transition-colors line-clamp-2">
+        <h3 className="text-lg md:text-xl font-sora font-bold text-gray-900 mb-3 group-hover:text-primary-purple transition-colors line-clamp-2">
           {course.title}
         </h3>
 

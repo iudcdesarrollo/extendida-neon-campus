@@ -20,7 +20,7 @@ interface CourseHeroProps {
 
 const CourseHero: React.FC<CourseHeroProps> = ({ courseData }) => {
   return (
-    <section className="pt-20 pb-16 bg-tech-gradient relative overflow-hidden">
+    <section className="pt-28 md:pt-36 pb-8 md:pb-16 bg-tech-gradient relative overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-32 h-32 border border-primary-purple/20 rounded-full animate-float"></div>
         <div className="absolute bottom-20 right-20 w-24 h-24 border border-primary-blue/20 rounded-lg rotate-45 animate-float" style={{animationDelay: '2s'}}></div>
@@ -72,7 +72,7 @@ const CourseHero: React.FC<CourseHeroProps> = ({ courseData }) => {
             <img
               src={courseData.image}
               alt={courseData.title}
-              className="w-full h-80 object-cover rounded-2xl border border-primary-purple/20"
+              className="w-full h-48 md:h-80 object-cover rounded-2xl border border-primary-purple/20"
             />
             <div className="absolute inset-0 bg-subtle-gradient opacity-20 rounded-2xl"></div>
           </div>

@@ -43,7 +43,7 @@ const CourseFilters: React.FC<CourseFiltersProps> = ({
         className="bg-gray-50 border border-primary-purple/30 rounded-lg px-4 py-3 text-gray-900 focus:outline-none focus:border-primary-purple transition-colors"
       >
         {categories.map((category) => (
-          <option key={category.value} value={category.value} className="bg-black">
+          <option key={category.value} value={category.value} className="bg-white">
             {category.label}
           </option>
         ))}

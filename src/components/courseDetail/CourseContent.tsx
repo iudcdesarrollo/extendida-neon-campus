@@ -30,7 +30,7 @@ const CourseContent: React.FC<CourseContentProps> = ({
     <div className="lg:col-span-2 space-y-12">
       {/* Description */}
       <div>
-        <h2 className="text-3xl font-sora font-bold text-gray-900 mb-6">
+        <h2 className="text-2xl md:text-3xl font-sora font-bold text-gray-900 mb-6">
           Descripción del Curso
         </h2>
         <p className="text-gray-900 font-inter leading-relaxed text-lg">
@@ -40,7 +40,7 @@ const CourseContent: React.FC<CourseContentProps> = ({
 
       {/* Tools */}
       <div>
-        <h2 className="text-3xl font-sora font-bold text-gray-900 mb-6">
+        <h2 className="text-2xl md:text-3xl font-sora font-bold text-gray-900 mb-6">
           Herramientas
         </h2>
         <div className="flex flex-wrap gap-3">
@@ -57,7 +57,7 @@ const CourseContent: React.FC<CourseContentProps> = ({
 
       {/* Target Audience */}
       <div>
-        <h2 className="text-3xl font-sora font-bold text-gray-900 mb-6">
+        <h2 className="text-2xl md:text-3xl font-sora font-bold text-gray-900 mb-6">
           Público Objetivo
         </h2>
         <p className="text-gray-900 font-inter leading-relaxed text-lg flex items-start">
@@ -68,7 +68,7 @@ const CourseContent: React.FC<CourseContentProps> = ({
 
       {/* Session Content */}
       <div>
-        <h2 className="text-3xl font-sora font-bold text-gray-900 mb-6">
+        <h2 className="text-2xl md:text-3xl font-sora font-bold text-gray-900 mb-6">
           📅 Contenido por Sesión
         </h2>
         <div className="space-y-4">

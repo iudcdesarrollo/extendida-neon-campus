@@ -10,7 +10,7 @@ export default function QuienesSomosPage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-20 pb-16 bg-tech-gradient relative overflow-hidden">
+      <section className="pt-28 md:pt-36 pb-8 md:pb-16 bg-tech-gradient relative overflow-hidden">
         <div className="absolute inset-0 hidden sm:block">
           <div className="absolute top-20 right-20 w-40 h-40 border border-primary-purple/20 rounded-full animate-float"></div>
           <div className="absolute bottom-32 left-20 w-32 h-32 border border-primary-blue/20 rounded-lg rotate-45 animate-float" style={{animationDelay: '3s'}}></div>
@@ -24,7 +24,7 @@ export default function QuienesSomosPage() {
               Somos
             </span>
           </h1>
-          <p className="text-xl text-gray-600 font-inter max-w-3xl mx-auto">
+          <p className="text-base md:text-xl text-gray-600 font-inter max-w-3xl mx-auto">
             En el Centro Interdisciplinar de Creación Digital de la Institución Universitaria de Colombia somos pioneros en la formación tecnológica del futuro, conectando creatividad e innovación digital.
           </p>
         </div>
@@ -42,7 +42,7 @@ export default function QuienesSomosPage() {
                   <div className="w-12 h-12 bg-subtle-gradient rounded-lg flex items-center justify-center mr-4">
                     <Target className="w-6 h-6 text-white" />
                   </div>
-                  <h2 className="text-3xl font-sora font-bold text-gray-900">Misión</h2>
+                  <h2 className="text-2xl md:text-3xl font-sora font-bold text-gray-900">Misión</h2>
                 </div>
                 <p className="text-gray-600 font-inter text-lg leading-relaxed">
                   Formar líderes creativos preparados para afrontar el presente y futuro tecnológico,
@@ -61,7 +61,7 @@ export default function QuienesSomosPage() {
                   <div className="w-12 h-12 bg-gradient-to-r from-primary-blue to-accent-purple rounded-lg flex items-center justify-center mr-4">
                     <Rocket className="w-6 h-6 text-white" />
                   </div>
-                  <h2 className="text-3xl font-sora font-bold text-gray-900">Visión</h2>
+                  <h2 className="text-2xl md:text-3xl font-sora font-bold text-gray-900">Visión</h2>
                 </div>
                 <p className="text-gray-600 font-inter text-lg leading-relaxed">
                   Ser la comunidad de aprendizaje más dinámica de Latinoamérica en innovación digital,
@@ -105,7 +105,7 @@ export default function QuienesSomosPage() {
                   <div className="w-20 h-20 bg-subtle-gradient rounded-full flex items-center justify-center mx-auto mb-4 group-hover:animate-glow">
                     <IconComponent className="w-10 h-10 text-gray-600" />
                   </div>
-                  <h3 className="text-xl font-sora font-bold text-gray-900 mb-3 group-hover:text-primary-purple transition-colors">
+                  <h3 className="text-lg md:text-xl font-sora font-bold text-gray-900 mb-3 group-hover:text-primary-purple transition-colors">
                     {value.title}
                   </h3>
                   <p className="text-gray-600 font-inter">
